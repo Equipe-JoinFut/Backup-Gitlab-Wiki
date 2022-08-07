@@ -9,28 +9,33 @@
 
 #### Stakeholders
 
-TBD
+* Lucas Zandona
+* Paulo Francisco
 
 #### Professor Orientador
 
-TBD
+* Professora Ana Paula 
 
 #### AGES I
 
-TBD
+* ![Thiago Chies Claas](https://tools.ages.pucrs.br/thiago.claas)
+* ![Rafael Dias Puhl](https://tools.ages.pucrs.br/rafael.puhl)
+* ![Eduardo de Carvalho Meireles](https://tools.ages.pucrs.br/eduardo.meireles)
 
 #### AGES II
 
-TBD
+* ![Vittoria Carolina da Silva Presa](https://tools.ages.pucrs.br/vittoria.silva)
+* ![Alexya Silva Rocha de Oliveira](https://tools.ages.pucrs.br/alexya.oliveira)
 
 #### AGES III
 
-TBD
+* ![Gabriel Fanto Stundner](https://tools.ages.pucrs.br/gabriel.stundner)
 
 #### AGES IV
 
-TBD
+* João Pedro Medeiros (ainda sem gitlab)
+* Vinicius Jaggi (ainda sem gitlab)
 
 ## Termo de Abertura
 
-TBD
+<img src="resources\images\home\termo_abertura_joinfut.png">
