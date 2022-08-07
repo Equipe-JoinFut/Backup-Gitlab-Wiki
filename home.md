@@ -18,18 +18,18 @@
 
 #### AGES I
 
-* ![Thiago Chies Claas](https://tools.ages.pucrs.br/thiago.claas)
-* ![Rafael Dias Puhl](https://tools.ages.pucrs.br/rafael.puhl)
-* ![Eduardo de Carvalho Meireles](https://tools.ages.pucrs.br/eduardo.meireles)
+* [Thiago Chies Claas](https://tools.ages.pucrs.br/thiago.claas)
+* [Rafael Dias Puhl](https://tools.ages.pucrs.br/rafael.puhl)
+* [Eduardo de Carvalho Meireles](https://tools.ages.pucrs.br/eduardo.meireles)
 
 #### AGES II
 
-* ![Vittoria Carolina da Silva Presa](https://tools.ages.pucrs.br/vittoria.silva)
-* ![Alexya Silva Rocha de Oliveira](https://tools.ages.pucrs.br/alexya.oliveira)
+* [Vittoria Carolina da Silva Presa](https://tools.ages.pucrs.br/vittoria.silva)
+* [Alexya Silva Rocha de Oliveira](https://tools.ages.pucrs.br/alexya.oliveira)
 
 #### AGES III
 
-* ![Gabriel Fanto Stundner](https://tools.ages.pucrs.br/gabriel.stundner)
+* [Gabriel Fanto Stundner](https://tools.ages.pucrs.br/gabriel.stundner)
 
 #### AGES IV
 
