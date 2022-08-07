@@ -1,7 +1,7 @@
 | [**Home**](home) | [Escopo e Cronograma](escopo) | [Processo](processo) | [Design/Mockups](design_mockups) | [Configuração](configuracao) | [Arquitetura](arquitetura) | [Código](codigo) | [BD](banco_dados) | [Qualidade](qualidade) | [Utilização](utilizacao) |
 | :--------------: | :---------------------------: | :------------------: | :--------------: | :--------------------------: | :------------------------: | :--------------: | :---------------: | :--------------------: | :----------------------: |
 
-<img src="resources/images/logo.svg" width="300">
+<img src="resources\images\logos\Gitlab_Logo.png" width="300">
 
 # Bem vindo à Wiki do Joinfut
 
