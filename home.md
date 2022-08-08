@@ -34,7 +34,7 @@
 #### AGES IV
 
 * João Pedro Medeiros (ainda sem gitlab)
-* Vinicius Jaggi (ainda sem gitlab)
+* [Vinicius Jaggi](https://tools.ages.pucrs.br/vinicius.jaggi)
 
 ## Termo de Abertura
 
