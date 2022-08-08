@@ -5,7 +5,7 @@
 
 ## Descrição
 
-Esta seção é dedicada a apresentar o escopo do projeto e os documentos referentes ao mesmo
+Esta seção é dedicada a apresentar o escopo do projeto e os documentos referentes ao mesmo.
 
 ## Sumário
 
