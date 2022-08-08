@@ -19,7 +19,7 @@ Esta seção é dedicada a apresentar o escopo do projeto e os documentos refere
 
 ## Mapeamento de Histórias de Usuário
 
-TBD
+TB
 
 ## Estrutura Analítica do Projeto
 
