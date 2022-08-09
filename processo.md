@@ -5,26 +5,74 @@
 
 ## Descrição
 
-Esta seção é dedicada a apresentar o processo de desenvolvimento do time, junto dela serão apresentados documentos referentes a maneira que o time se organizou e trabalha.
+Os processos implementados são processos utilizados no mercado de trabalho em projetos de larga escala, para auxiliar os alunos a entenderem como se desenvolve em equipes de alto padrão e costumes para auxiliar na organização de novas demandas
 
 ## Sumário
 
+- [Nomenclaturas](#nomenclatura)
 - [Git Workflow](#git-workflow)
 - [Matriz de Responsabilidade](#matriz-de-responsabilidade)
 - [Plano de Comunicação](#plano-de-comunicação)
 - [Plano de Riscos](#plano-de-riscos)
 
+## Nomenclaturas
+
+---
+
+Quando utilizamos o Gitlab/Github e queremos que o colega desenvolva um tópico específico, criamos algo chamado **Issue** no site de armazenamento de repositório, abaixo irei apresentar nomes e as nomenclaturas que iremos utilizar:
+
+1. **Branch** = Local de trabalho do desenvolvedor, onde é uma cópia feita do diretório de desenvolvimento chamado _Master_ onde o desenvolvedor pode trabalhar tranquilo sem prejudicar o projeto, após finalizado a melhoria ou desenvolvimento feito nela, ele deve pedir para os supervisores verificarem se não vai prejudicar o projeto como um todo.
+2. **Demanda** = Demanda é a nomenclatura na industria para definir a **Issue**, é um tópico de desenvolvimento que será desenvolvido por um programador e entregue para ser revisado.
+3. **PR** = abreviação para **Pull Request** ou **Merge Request**, é uma requisição feita a partir de uma Branch para ser vinculado a Branch principal chamada _Master_.
+4. **GIT** = Git é o software que utilizamos para gerenciar as alterações feitas no projeto, ele nos ajuda a desenvolver em equipe sem quebrar ou prejudicar o projeto do colega que está desenvolvendo junto ao mesmo tempo.
+
+## Demandas
+
+---
+
+Uma demanda é um pedaço de tarefa que o desenvolvedor, é um pedaço de uma User Stories (US), onde deve ser apresentado o que o desenvolvedor deve fazer e entregar, tem que ser o mais direto e descritivo possível.
+
+Para acessar as Demandas do projeto você tem que ir na aba **Issues** como mostra o vídeo abaixo:
+
+<img src="resources\images\processo\Acessando_Issues.gif">
+
+Temos uma estrutura de Issue específica, onde ela tem um template como esse abaixo:
+
+<img src="resources\images\processo\Template Issue.png">
+
+Quando é criado a Issue ela tem as seguintes informações:
+
+<img src="resources\images\processo\Template Issue2.png">
+
+O mais importante, além das informações da Issue e quem é o responsável, é o **Código** dela, que iremos utilizar diariamente e direto em nosso projeto, como você vai ver na nomenclatura da Branch e na mensagem do Commit.
+ 
+
+
 ## Git Workflow
 
-### Branches
+---
 
-#### Nomes
+### Nomes
+
+---
+
+#### Branches
 
 Como padrão para nomes de branches, foi decidido o seguinte:
 
 ```
-<tipoDeItem>-<nomeDoItem>
+<nomeColega>/<tipoDemanda>/<codigoDemanda>
 ```
+
+Exemplo de branchs:
+
+```
+fanto/feature/#1
+fanto/bugFix/#346
+fanto/architecture/#1230
+```
+
+#### Componentes
 
 Exemplo de Componentes:
 
@@ -33,6 +81,8 @@ component-navBar
 component-slider
 ```
 
+#### Páginas
+
 Exemplo de Páginas:
 
 ```
@@ -40,31 +90,55 @@ page-recipes
 page-creations
 ```
 
-#### Criação
+---
 
-Para garantir que o processo de desenvolvimento esteja sempre atualizado, lembre-se de executar o seguinte comando na branch dev antes de criar uma branch nova:
+#### Criação de Branches
+
+---
+
+##### Criação pelo Gitlab
+
+* Uma forma simples de criar uma Branch é direto no Gitlab, onde acesse a página inicial do repositório e siga as instruções do GIF abaixo:
+
+<img src="resources\images\processo\Criando_Branch_Gitlab.gif">
+
+* A branch principal se chama **Main** e ela é bloqueada para não receber commits direto nela, por ser a Branch ativa que o cliente utiliza.
+
+* Branches ativas são Branches que precisam estar 100% funcionando e que não devem ser mexidas se não foi validado e testado as modificações, podendo quebrar o projeto e ficar fora do ar para o cliente.
+
+##### Criação pelo Console
+
+* A forma mais comum de criação de uma Branch é pelo console (ou terminal) quando o repositório está clonado em sua maquina (mais informações em [Git]())
+
+* Abaixo um video completo de criação de uma branch
+
+<img src="resources\images\processo\Criando_Branch_Console.gif">
+
+* Os comando utilizados são:
 
 ```
-git pull origin dev
+git pull
 ```
-
-Depois da execução desse comando é necessário oficialmente criar a Branch, para isso, execute o seguinte comando:
-
-```
-git checkout -b <nomeDaBranch>
-```
-
-Assim que criar a branch, é necessário fazer um `push`para garantir que a mesma estará remota:
+Git pull serve para trazer as atualizações que estão no repositório remoto (Gitlab)
 
 ```
-git push --set-upstream origin <nomeDaBranch>
+git branch
 ```
+Git branch serve para vermos qual é a Branch que estamos nesse momento, no vídeo tem uma extensão para powershell que mostra o nome da branch sempre que for um repositório GIT
 
-Pronto! Agora você já pode começar a programar na sua Branch.
+```
+git checkout -b fanto/architecure/#2
+```
+Git checkout -b serve para criar uma nova Branch e acessar ela automaticamente, onde ele espera que seja colocado o nome da branch depois do -b, essa Branch está seguindo o padrão definido no tópico nome de branches
+
+```
+git log
+```
+Git log serve para ver os Commits já feitos, onde mostra em qual Branch eles foram criados.
 
 ### Commits
 
-Para que o código desenvolvido seja salvo em sua branch de maneira remota, é necessário realizar os comandos de `commit` e `push`
+---
 
 #### Salvando Localmente
 
@@ -74,13 +148,33 @@ Para garantir que apenas o código necessário para funcionamento da tarefa lemb
 git add <nomeDoArquivo>
 ```
 
-Depois de adicionar todos os arquivos que deseja salvar, execute o commando de commit com uma mensagem curta que represente o que foi trabalhado nesses arquivos adicionados:
+Caso todos os arquivos modificados da Branch são essenciais, pode utilizar o ponto `.` para salvar todos os arquivos localmente, mas tenha muito cuidado para não salvar os arquivos que não são essenciais:
 
 ```
-git commit -m 'descrição da tarefa em português'
+git add .
 ```
 
-Não hesite em realizar vários commits, assim podemos ter docuemntado e salvo vários estados do desenvolvimento
+#### Padrão de Commits
+
+Todos os commits devem começar com o **código da Issue** e uma mensagem direta do que foi feito naquele commit:
+
+Exemplo de Issue:
+
+<img src="resources\images\processo\Codigo_Issue.png">
+
+Esse código marcado é o que deve vir antes da mensagem em português do que foi feito:
+
+```
+git commit -m "#1 Atualizando os nomes dos colegas"
+```
+
+Com isso, vai vincular automaticamente a Issue ao commit, facilitando o trabalho dos revisores e colegas para saber de onde veio as alterações e o que foi feito
+
+
+
+**ATENÇÃO** se o commit não estiver nessa estrutura, o commit vai ser invalidado e deverá ser feito um SQUASH de commits com a estrutura correta.
+
+Não hesite em realizar vários commits, assim podemos ter documentado e salvo vários estados do desenvolvimento
 
 #### Salvando Remotamente
 
