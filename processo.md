@@ -256,6 +256,26 @@ Pronto! a wiki já está salvo em seu computador, para enviar modificações sã
 
 A wiki são arquivos **markdown** com extensão **.md**, as imagens devem todas serem arrastadas e coladas na pasta **resources/images/** dentro da pasta sobre o assunto, dai para chamar a imagem faça como no vídeo mais abaixo, postando como funciona as pastas da wiki:
 
+<img src="resources\images\processo\5_explicando_pastas.png">
+
+Para colocar essa imagem acima, faça como no vídeo abaixo:
+
+<img src="resources\images\processo\adicionando_imagens.gif">
+
+Para controlar o tamanho, só coloque o **width** (largura) e o **height** (altura) como no exemplo abaixo:
+
+```
+<img src="" width="200" height="200">
+```
+
+Exemplo: 
+
+<img src="resources\images\logos\Gitlab_Logo.png" width="200" height="200">
+
+Na wiki fica assim o exemplo: 
+
+
+
 
 
 ---
