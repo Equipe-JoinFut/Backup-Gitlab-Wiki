@@ -20,7 +20,7 @@
 
 * [Eduardo de Carvalho Meireles](https://tools.ages.pucrs.br/eduardo.meireles)
 * [Rafael Dias Puhl](https://tools.ages.pucrs.br/rafael.puhl)
-* Thales Cordoni da Veiga (ainda sem gitlab)
+* [Thales Cordoni da Veiga](https://tools.ages.pucrs.br/thales.veiga)
 * [Thiago Chies Claas](https://tools.ages.pucrs.br/thiago.claas)
 
 #### AGES II
@@ -36,7 +36,7 @@
 
 #### AGES IV
 
-* João Pedro Medeiros (ainda sem gitlab)
+* [João Pedro Picetti Medeiros](https://tools.ages.pucrs.br/joao.medeiros)
 * [Vinicius Jaggi](https://tools.ages.pucrs.br/vinicius.jaggi)
 
 ## Termo de Abertura
