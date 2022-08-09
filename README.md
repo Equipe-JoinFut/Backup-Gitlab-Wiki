@@ -1,94 +1,274 @@
-# Joinfut Wiki
+# Informações rápidas e básicas para os desenvolvedores
 
+- [Comandos GIT mais usados](#comandos-git-mais-usados)
+- [Nomenclaturas](#nomenclatura)
+- [Git Workflow](#git-workflow)
+- [Wiki Workflow](#wiki-workflow)
 
+---
 
-## Getting started
-
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+## Comandos GIT mais usados
 
 ```
-cd existing_repo
-git remote add origin https://tools.ages.pucrs.br/Joinfut/joinfut-wiki.git
-git branch -M main
-git push -uf origin main
+1. git add <nomeArquivo>
+2. git commit -m "#códigoIssue descrição em portugues"
+3. git pull
+4. git push origin <nomeBranch>
+```
+1. adicionar um arquivo para ser salvo
+2. salvar as modificações, seguindo a estrutura de commit abaixo
+3. atualização da branch atual com o que foi modificado externamente
+4. enviar as modificações da Branch que você está trabalhando
+
+
+## Nomenclaturas
+
+---
+
+Quando utilizamos o Gitlab/Github e queremos que o colega desenvolva um tópico específico, criamos algo chamado **Issue** no site de armazenamento de repositório, abaixo irei apresentar nomes e as nomenclaturas que iremos utilizar:
+
+1. **Branch** = Local de trabalho do desenvolvedor, onde é uma cópia feita do diretório de desenvolvimento chamado _Master_ onde o desenvolvedor pode trabalhar tranquilo sem prejudicar o projeto, após finalizado a melhoria ou desenvolvimento feito nela, ele deve pedir para os supervisores verificarem se não vai prejudicar o projeto como um todo.
+2. **Demanda** = Demanda é a nomenclatura na industria para definir a **Issue**, é um tópico de desenvolvimento que será desenvolvido por um programador e entregue para ser revisado.
+3. **PR** = abreviação para **Pull Request** ou **Merge Request**, é uma requisição feita a partir de uma Branch para ser vinculado a Branch principal chamada _Master_.
+4. **GIT** = Git é o software que utilizamos para gerenciar as alterações feitas no projeto, ele nos ajuda a desenvolver em equipe sem quebrar ou prejudicar o projeto do colega que está desenvolvendo junto ao mesmo tempo.
+
+## Demandas
+
+---
+
+Uma demanda é um pedaço de tarefa que o desenvolvedor, é um pedaço de uma User Stories (US), onde deve ser apresentado o que o desenvolvedor deve fazer e entregar, tem que ser o mais direto e descritivo possível.
+
+Para acessar as Demandas do projeto você tem que ir na aba **Issues** como mostra o vídeo abaixo:
+
+<img src="resources\images\processo\Acessando_Issues.gif">
+
+Temos uma estrutura de Issue específica, onde ela tem um template como esse abaixo:
+
+<img src="resources\images\processo\Template Issue.png">
+
+Quando é criado a Issue ela tem as seguintes informações:
+
+<img src="resources\images\processo\Template Issue2.png">
+
+O mais importante, além das informações da Issue e quem é o responsável, é o **Código** dela, que iremos utilizar diariamente e direto em nosso projeto, como você vai ver na nomenclatura da Branch e na mensagem do Commit.
+
+## Git Workflow
+
+---
+
+### Nomes
+
+---
+
+#### Branches
+
+Como padrão para nomes de branches, foi decidido o seguinte:
+
+```
+<nomeColega>/<tipoDemanda>/<codigoDemanda>
 ```
 
-## Integrate with your tools
+Exemplo de branchs:
 
-- [ ] [Set up project integrations](https://tools.ages.pucrs.br/Joinfut/joinfut-wiki/-/settings/integrations)
+```
+fanto/feature/#1
+fanto/bugFix/#346
+fanto/architecture/#1230
+```
 
-## Collaborate with your team
+#### Componentes
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+Exemplo de Componentes:
 
-## Test and Deploy
+```
+component-navBar
+component-slider
+```
 
-Use the built-in continuous integration in GitLab.
+#### Páginas
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+Exemplo de Páginas:
 
-***
+```
+page-recipes
+page-creations
+```
 
-# Editing this README
+---
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!).  Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+#### Criação de Branches
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+---
 
-## Name
-Choose a self-explaining name for your project.
+##### Criação pelo Gitlab
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+* Uma forma simples de criar uma Branch é direto no Gitlab, onde acesse a página inicial do repositório e siga as instruções do GIF abaixo:
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+<img src="resources\images\processo\Criando_Branch_Gitlab.gif">
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+* A branch principal se chama **Main** e ela é bloqueada para não receber commits direto nela, por ser a Branch ativa que o cliente utiliza.
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+* Branches ativas são Branches que precisam estar 100% funcionando e que não devem ser mexidas se não foi validado e testado as modificações, podendo quebrar o projeto e ficar fora do ar para o cliente.
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+##### Criação pelo Console
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+* A forma mais comum de criação de uma Branch é pelo console (ou terminal) quando o repositório está clonado em sua maquina (mais informações em [Git]())
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+* Abaixo um video completo de criação de uma branch
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+<img src="resources\images\processo\Criando_Branch_Console.gif">
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+* Os comando utilizados são:
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+```
+git pull
+```
+Git pull serve para trazer as atualizações que estão no repositório remoto (Gitlab)
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+```
+git branch
+```
+Git branch serve para vermos qual é a Branch que estamos nesse momento, no vídeo tem uma extensão para powershell que mostra o nome da branch sempre que for um repositório GIT
 
-## License
-For open source projects, say how it is licensed.
+```
+git checkout -b fanto/architecure/#2
+```
+Git checkout -b serve para criar uma nova Branch e acessar ela automaticamente, onde ele espera que seja colocado o nome da branch depois do -b, essa Branch está seguindo o padrão definido no tópico nome de branches
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+```
+git log
+```
+Git log serve para ver os Commits já feitos, onde mostra em qual Branch eles foram criados.
 
-aaaaa
+### Commits
+
+---
+
+#### Salvando Localmente
+
+Para garantir que apenas o código necessário para funcionamento da tarefa lembre-se de realizar o comando `add` apenas nos arquivos **essenciais** para a tarefa:
+
+```
+git add <nomeDoArquivo>
+```
+
+Caso todos os arquivos modificados da Branch são essenciais, pode utilizar o ponto `.` para salvar todos os arquivos localmente, mas tenha muito cuidado para não salvar os arquivos que não são essenciais:
+
+```
+git add .
+```
+
+#### Padrão de Commits
+
+Todos os commits devem começar com o **código da Issue** e uma mensagem direta do que foi feito naquele commit:
+
+Exemplo de Issue:
+
+<img src="resources\images\processo\Codigo_Issue.png">
+
+Esse código marcado é o que deve vir antes da mensagem em português do que foi feito:
+
+```
+git commit -m "#1 Atualizando os nomes dos colegas"
+```
+
+Com isso, vai vincular automaticamente a Issue ao commit, facilitando o trabalho dos revisores e colegas para saber de onde veio as alterações e o que foi feito
+
+<img src="resources\images\processo\Vinculo_Issue.png">
+
+**ATENÇÃO** se o commit não estiver nessa estrutura, o commit vai ser invalidado e deverá ser feito um SQUASH de commits com a estrutura correta.
+
+Não hesite em realizar vários commits, assim podemos ter documentado e salvo vários estados do desenvolvimento
+
+---
+
+#### Enviando modificações Remotamente
+
+Depois de finalizar o desenvolvimento, envie todos os commits da sua máquina para o servidor remoto. Para isso depois de realizar as etapas de salvamento local, salve remotamente com o comando `push` sempre dizendo qual localização (origin) e o nome da branch, assim não terá conflitos de nomes e facilitará a verificar qual branch você está trabalhando:
+
+```
+git push origin fanto/architecture/#1
+```
+
+---
+
+### Merge Requests
+
+---
+
+Depois de uma Demanda ter sido desenvolvida e estiver pronta de acordo com os critérios de aceitação, é necessário que a mesma seja enviada para a branch de desenvolvimento. Para isso é necessário abrir um Merge Request pela platafora GitLab:
+
+#### Criando o Merge Request
+
+A criação pode ser realizada na seção Merge Requests do repositório em que a branch foi criada. Clicando no botão `New Merge Request` siga os seguintes passos:
+
+1. Selecionar a branch de origem (sua branch de desenvolvimento);
+2. Selecionar a branch de destino (branch dev);
+3. Selecione `Compare branches and continue`
+4. Em `Title`, escreva um título que descreva a funcionalidade adicionada ou bug corrigido;
+5. Em `Description`, escreva uma descrição com uma breve justificativa nos arquivos que foram alterados;
+6. Na seção `Assignee`, selecione `Assign to me` para que fique registrado quem foi o responsável pelo desenvolvimento daquela tarefa (a pessoa selecionada será chamada caso o revisor tenha dúvidas sobre a tarefa);
+7. Em `Milestone` selecione a Sprint em que a tarefa foi realizada;
+8. Em `Labels`selecione qual é o tipo de tarefa que foi realizada;
+9. Por último, revise se os arquivos que estão sendo enviados estão corretos e clique em `Submit Merge Request`.
+
+## Wiki Workflow
+
+---
+
+O desenvolvimento da wiki é feito de uma forma diferente, **NÃO DEVE SER ENVIADO OU MODIFICADO INFORMAÇÕES DIRETAMENTE NO GITLAB**.
+
+O porque isso? imagens e arquivos são facilmente perdidos, ja houve projetos que foi perdido tudo que tinham no gitlab.
+
+Para evitar isso, iremos trabalhar com a wiki como se estivessemos programando um projeto normal de desenvolvimento.
+
+A wiki é um **Repositório** externo do Repositório pai, por isso podemos **Cloná-lo**:
+
+Abaixo um video de como clonar a wiki para o seu computador:
+
+<img src="resources\images\processo\clonando_wiki.gif">
+
+Acessamos a área de Wiki do projeto:
+
+<img src="resources\images\processo\1_Acessando_wiki.png">
+
+Depois clicamos no canto direito em **Clone repository**
+
+<img src="resources\images\processo\2_clonar_wiki.png">
+
+Clicamos no símbolo abaixo para copiar o link para podermos clonar a wiki
+
+<img src="resources\images\processo\3_clonando_wiki.png">
+
+* Utilizamos em um terminal o comando **git clone url** para clonar na página atual o repositório
+* Depois acessamos o repositório e usamos o comando **code .** para abrir o vscode com as páginas da wiki
+
+<img src="resources\images\processo\4_clone_wiki.png">
+
+Pronto! a wiki já está salvo em seu computador, para enviar modificações são os mesmos processos de Commit apresentado no tópico do Git Workflow
+
+A wiki são arquivos **markdown** com extensão **.md**, as imagens devem todas serem arrastadas e coladas na pasta **resources/images/** dentro da pasta sobre o assunto, dai para chamar a imagem faça como no vídeo mais abaixo, postando como funciona as pastas da wiki:
+
+<img src="resources\images\processo\5_explicando_pastas.png">
+
+Para colocar essa imagem acima, faça como no vídeo abaixo:
+
+<img src="resources\images\processo\adicionando_imagens.gif">
+
+Para controlar o tamanho, só coloque o **width** (largura) e o **height** (altura) como no exemplo abaixo:
+
+```
+<img src="" width="200" height="200">
+```
+
+Exemplo: 
+
+<img src="resources\images\processo\Gitlab_Logo.png" width="200" height="200">
+
+Na wiki fica assim o exemplo: 
+
+<img src="resources\images\processo\6_exemplo.png">
+
+Para aprender mais sobre Markdown, só pesquisar na internet ou perguntar para seu AGES III, Gabriel Fanto
+
+---
