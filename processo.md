@@ -11,6 +11,7 @@ Os processos implementados são processos utilizados no mercado de trabalho em p
 
 - [Nomenclaturas](#nomenclatura)
 - [Git Workflow](#git-workflow)
+- [Wiki Workflow](#wiki-workflow)
 - [Matriz de Responsabilidade](#matriz-de-responsabilidade)
 - [Plano de Comunicação](#plano-de-comunicação)
 - [Plano de Riscos](#plano-de-riscos)
@@ -216,6 +217,49 @@ Na hora de revisar o Merge Request, entre na branch em sua máquina e teste a fu
 
 Caso haja pendências, relacionadas a documentação do código, padronização ou arquivos enviados, não exite em realizar um novo commit na branch com as mudanças necessárias antes de realizar a integração.
 
+---
+
+## Wiki Workflow
+
+---
+
+O desenvolvimento da wiki é feito de uma forma diferente, **NÃO DEVE SER ENVIADO OU MODIFICADO INFORMAÇÕES DIRETAMENTE NO GITLAB**.
+
+O porque isso? imagens e arquivos são facilmente perdidos, ja houve projetos que foi perdido tudo que tinham no gitlab.
+
+Para evitar isso, iremos trabalhar com a wiki como se estivessemos programando um projeto normal de desenvolvimento.
+
+A wiki é um **Repositório** externo do Repositório pai, por isso podemos **Cloná-lo**:
+
+Abaixo um video de como clonar a wiki para o seu computador:
+
+<img src="resources\images\processo\clonando_wiki.gif">
+
+Acessamos a área de Wiki do projeto:
+
+<img src="resources\images\processo\1_Acessando_wiki.png">
+
+Depois clicamos no canto direito em **Clone repository**
+
+<img src="resources\images\processo\2_clonar_wiki.png">
+
+Clicamos no símbolo abaixo para copiar o link para podermos clonar a wiki
+
+<img src="resources\images\processo\3_clonando_wiki.png">
+
+* Utilizamos em um terminal o comando **git clone url** para clonar na página atual o repositório
+* Depois acessamos o repositório e usamos o comando **code .** para abrir o vscode com as páginas da wiki
+
+<img src="resources\images\processo\4_clone_wiki.png">
+
+Pronto! a wiki já está salvo em seu computador, para enviar modificações são os mesmos processos de Commit apresentado no tópico do Git Workflow
+
+A wiki são arquivos **markdown** com extensão **.md**, as imagens devem todas serem arrastadas e coladas na pasta **resources/images/** dentro da pasta sobre o assunto, dai para chamar a imagem faça como no vídeo mais abaixo, postando como funciona as pastas da wiki:
+
+
+
+---
+
 ## Matriz de Responsabilidade
 
 Essa matriz foi desenvolvida para ajudar os membros do time a saberem seus papéis na dentro do processo de desenvolvimento.
@@ -238,7 +282,7 @@ Essa matriz foi desenvolvida para ajudar os membros do time a saberem seus papé
 - A: Aprova
 
 
-## Plano de Comunicação
+## Plano de Comunicação (EM CONSTRUÇÃO)
 
 |           **Evento**           |                                                                                                                                                                                                                                **Descrição**                                                                                                                                                                                                                                | **Responsável** |          **Envolvidos**          |                                   **Frequência**                                    |               **Duração**               |
 | :----------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------: | :------------------------------: | :---------------------------------------------------------------------------------: | :-------------------------------------: |
@@ -247,7 +291,7 @@ Essa matriz foi desenvolvida para ajudar os membros do time a saberem seus papé
 
 ---
 
-## Plano de Riscos
+## Plano de Riscos (EM CONSTRUÇÃO)
 
 | Risco                                                 | Prevenção                                                                                  | Contingência                                                                                  | Estratégia |
 | ----------------------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- | ---------- |
