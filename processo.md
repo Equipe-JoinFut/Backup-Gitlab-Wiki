@@ -274,9 +274,9 @@ Exemplo:
 
 Na wiki fica assim o exemplo: 
 
+<img src="resources\images\processo\6_exemplo.png">
 
-
-
+Para aprender mais sobre Markdown, só pesquisar na internet ou perguntar para seu AGES III, Gabriel Fanto
 
 ---
 
