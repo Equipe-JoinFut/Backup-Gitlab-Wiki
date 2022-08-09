@@ -14,21 +14,24 @@
 
 #### Professor Orientador
 
-* Professora Ana Paula 
+* [Professora Ana Paula Bacelo](https://tools.ages.pucrs.br/ana.bacelo)
 
 #### AGES I
 
-* [Thiago Chies Claas](https://tools.ages.pucrs.br/thiago.claas)
-* [Rafael Dias Puhl](https://tools.ages.pucrs.br/rafael.puhl)
 * [Eduardo de Carvalho Meireles](https://tools.ages.pucrs.br/eduardo.meireles)
+* [Rafael Dias Puhl](https://tools.ages.pucrs.br/rafael.puhl)
+* Thales Cordoni da Veiga (ainda sem gitlab)
+* [Thiago Chies Claas](https://tools.ages.pucrs.br/thiago.claas)
 
 #### AGES II
 
-* [Vittoria Carolina da Silva Presa](https://tools.ages.pucrs.br/vittoria.silva)
 * [Alexya Silva Rocha de Oliveira](https://tools.ages.pucrs.br/alexya.oliveira)
+* [Edson Ricardo da Costa](https://tools.ages.pucrs.br/edson.costa)
+* [Vittoria Carolina da Silva Presa](https://tools.ages.pucrs.br/vittoria.silva)
 
 #### AGES III
 
+* [Christopher da Rosa Michel](https://tools.ages.pucrs.br/christopher.michel)
 * [Gabriel Fanto Stundner](https://tools.ages.pucrs.br/gabriel.stundner)
 
 #### AGES IV
