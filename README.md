@@ -40,7 +40,7 @@ Uma demanda é um pedaço de tarefa que o desenvolvedor, é um pedaço de uma Us
 
 Para acessar as Demandas do projeto você tem que ir na aba **Issues** como mostra o vídeo abaixo:
 
-!![](https://tools.ages.pucrs.br/Joinfut/joinfut-wiki/-/blob/main/resources/images/processo/Acessando_Issues.gif)
+![](https://tools.ages.pucrs.br/Joinfut/joinfut-wiki/-/blob/main/resources/images/processo/Acessando_Issues.gif)
 
 Temos uma estrutura de Issue específica, onde ela tem um template como esse abaixo:
 
