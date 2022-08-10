@@ -40,15 +40,15 @@ Uma demanda é um pedaço de tarefa que o desenvolvedor, é um pedaço de uma Us
 
 Para acessar as Demandas do projeto você tem que ir na aba **Issues** como mostra o vídeo abaixo:
 
-<img src="resources\images\processo\Acessando_Issues.gif">
+<img src="https://tools.ages.pucrs.br/Joinfut/joinfut-wiki/-/blob/main/resources/images/processo/Acessando_Issues.gif">
 
 Temos uma estrutura de Issue específica, onde ela tem um template como esse abaixo:
 
-<img src="resources\images\processo\Template Issue.png">
+<img src="https://tools.ages.pucrs.br/Joinfut/joinfut-wiki/-/blob/main/resources/images/processo/Template%20Issue.png">
 
 Quando é criado a Issue ela tem as seguintes informações:
 
-<img src="resources\images\processo\Template Issue2.png">
+<img src="https://tools.ages.pucrs.br/Joinfut/joinfut-wiki/-/blob/main/resources/images/processo/Template%20Issue2.png">
 
 O mais importante, além das informações da Issue e quem é o responsável, é o **Código** dela, que iremos utilizar diariamente e direto em nosso projeto, como você vai ver na nomenclatura da Branch e na mensagem do Commit.
 
@@ -104,7 +104,7 @@ page-creations
 
 * Uma forma simples de criar uma Branch é direto no Gitlab, onde acesse a página inicial do repositório e siga as instruções do GIF abaixo:
 
-<img src="resources\images\processo\Criando_Branch_Gitlab.gif">
+<img src="https://tools.ages.pucrs.br/Joinfut/joinfut-wiki/-/blob/main/resources/images/processo/Criando_Branch_Gitlab.gif">
 
 * A branch principal se chama **Main** e ela é bloqueada para não receber commits direto nela, por ser a Branch ativa que o cliente utiliza.
 
@@ -116,7 +116,7 @@ page-creations
 
 * Abaixo um video completo de criação de uma branch
 
-<img src="resources\images\processo\Criando_Branch_Console.gif">
+<img src="https://tools.ages.pucrs.br/Joinfut/joinfut-wiki/-/blob/main/resources/images/processo/Criando_Branch_Console.gif">
 
 * Os comando utilizados são:
 
@@ -164,7 +164,7 @@ Todos os commits devem começar com o **código da Issue** e uma mensagem direta
 
 Exemplo de Issue:
 
-<img src="resources\images\processo\Codigo_Issue.png">
+<img src="https://tools.ages.pucrs.br/Joinfut/joinfut-wiki/-/blob/main/resources/images/processo/Codigo_Issue.png">
 
 Esse código marcado é o que deve vir antes da mensagem em português do que foi feito:
 
@@ -174,7 +174,7 @@ git commit -m "#1 Atualizando os nomes dos colegas"
 
 Com isso, vai vincular automaticamente a Issue ao commit, facilitando o trabalho dos revisores e colegas para saber de onde veio as alterações e o que foi feito
 
-<img src="resources\images\processo\Vinculo_Issue.png">
+<img src="https://tools.ages.pucrs.br/Joinfut/joinfut-wiki/-/blob/main/resources/images/processo/Vinculo_Issue.png">
 
 **ATENÇÃO** se o commit não estiver nessa estrutura, o commit vai ser invalidado e deverá ser feito um SQUASH de commits com a estrutura correta.
 
@@ -226,34 +226,34 @@ A wiki é um **Repositório** externo do Repositório pai, por isso podemos **Cl
 
 Abaixo um video de como clonar a wiki para o seu computador:
 
-<img src="resources\images\processo\clonando_wiki.gif">
+<img src="https://tools.ages.pucrs.br/Joinfut/joinfut-wiki/-/blob/main/resources/images/processo/3_clonando_wiki.png">
 
 Acessamos a área de Wiki do projeto:
 
-<img src="resources\images\processo\1_Acessando_wiki.png">
+<img src="https://tools.ages.pucrs.br/Joinfut/joinfut-wiki/-/blob/main/resources/images/processo/1_Acessando_wiki.png">
 
 Depois clicamos no canto direito em **Clone repository**
 
-<img src="resources\images\processo\2_clonar_wiki.png">
+<img src="https://tools.ages.pucrs.br/Joinfut/joinfut-wiki/-/blob/main/resources/images/processo/2_clonar_wiki.png">
 
 Clicamos no símbolo abaixo para copiar o link para podermos clonar a wiki
 
-<img src="resources\images\processo\3_clonando_wiki.png">
+<img src="https://tools.ages.pucrs.br/Joinfut/joinfut-wiki/-/blob/main/resources/images/processo/3_clonando_wiki.png">
 
 * Utilizamos em um terminal o comando **git clone url** para clonar na página atual o repositório
 * Depois acessamos o repositório e usamos o comando **code .** para abrir o vscode com as páginas da wiki
 
-<img src="resources\images\processo\4_clone_wiki.png">
+<img src="https://tools.ages.pucrs.br/Joinfut/joinfut-wiki/-/blob/main/resources/images/processo/4_clone_wiki.png">
 
 Pronto! a wiki já está salvo em seu computador, para enviar modificações são os mesmos processos de Commit apresentado no tópico do Git Workflow
 
 A wiki são arquivos **markdown** com extensão **.md**, as imagens devem todas serem arrastadas e coladas na pasta **resources/images/** dentro da pasta sobre o assunto, dai para chamar a imagem faça como no vídeo mais abaixo, postando como funciona as pastas da wiki:
 
-<img src="resources\images\processo\5_explicando_pastas.png">
+<img src="https://tools.ages.pucrs.br/Joinfut/joinfut-wiki/-/blob/main/resources/images/processo/5_explicando_pastas.png">
 
 Para colocar essa imagem acima, faça como no vídeo abaixo:
 
-<img src="resources\images\processo\adicionando_imagens.gif">
+<img src="https://tools.ages.pucrs.br/Joinfut/joinfut-wiki/-/blob/main/resources/images/processo/adicionando_imagens.gif">
 
 Para controlar o tamanho, só coloque o **width** (largura) e o **height** (altura) como no exemplo abaixo:
 
@@ -263,11 +263,11 @@ Para controlar o tamanho, só coloque o **width** (largura) e o **height** (altu
 
 Exemplo: 
 
-<img src="resources\images\processo\Gitlab_Logo.png" width="200" height="200">
+<img src="https://tools.ages.pucrs.br/Joinfut/joinfut-wiki/-/blob/main/resources/images/processo/Gitlab_Logo.png" width="200" height="200">
 
 Na wiki fica assim o exemplo: 
 
-<img src="resources\images\processo\6_exemplo.png">
+<img src="https://tools.ages.pucrs.br/Joinfut/joinfut-wiki/-/blob/main/resources/images/processo/6_exemplo.png">
 
 Para aprender mais sobre Markdown, só pesquisar na internet ou perguntar para seu AGES III, Gabriel Fanto
 
