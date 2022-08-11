@@ -12,6 +12,7 @@ Os processos implementados são processos utilizados no mercado de trabalho em p
 - [Nomenclaturas](#nomenclatura)
 - [Git Workflow](#git-workflow)
 - [Wiki Workflow](#wiki-workflow)
+- [Sincronização ao Github](#Sincronizacao)
 - [Matriz de Responsabilidade](#matriz-de-responsabilidade)
 - [Plano de Comunicação](#plano-de-comunicação)
 - [Plano de Riscos](#plano-de-riscos)
@@ -277,6 +278,32 @@ Na wiki fica assim o exemplo:
 <img src="resources\images\processo\6_exemplo.png">
 
 Para aprender mais sobre Markdown, só pesquisar na internet ou perguntar para seu AGES III, Gabriel Fanto
+
+---
+
+## Sincronização com o Github
+
+A sincronização vai ocorrer todos os dias a meia noite, onde todo o trabalho feito do dia será enviado ao repositório de backup no github oficial do projeto
+
+### Sincronização manual
+
+É utilizado o comando git **remote** para definir para onde vai as atualizações, como no exemplo da wiki
+
+<img src="resources\images\processo\1_criando_remote_local.png">
+
+```
+git remote add backup https://github.com/Equipe-JoinFut/Backup-Gitlab-Wiki.git
+```
+
+Esse comando serve para fazer um vinculo local do repositório da wiki do nosso projeto com o repositório de backup no github
+
+Para verificar quais remotes você tem é usado o `git remote -v`
+
+Para enviar as modificações, tem que ter a branch com o mesmo nome da nossa wiki, como o nome é **master** as atualizações vão para a branch de mesmo nome no github.
+
+<img src="resources\images\processo\2_dando_push_remote.png">
+
+Por enquanto vai ser de uma forma manual para evitar de perder o backup feito, mais tarde será automatizado esse processo do gitlab para o github de forma sincronizada
 
 ---
 
