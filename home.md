@@ -1,5 +1,5 @@
-| [**Home**](home) | [Escopo e Cronograma](escopo) | [Processo](processo) | [Design/Mockups](design_mockups) | [Configuração](configuracao) | [Arquitetura](arquitetura) | [Código](codigo) | [BD](banco_dados) | [Qualidade](qualidade) | [Utilização](utilizacao) |
-| :--------------: | :---------------------------: | :------------------: | :--------------: | :--------------------------: | :------------------------: | :--------------: | :---------------: | :--------------------: | :----------------------: |
+| [**Home**](home) | [Escopo e Cronograma](escopo) | [Processo](processo) | [Design/Mockups](design_mockups) | [Configuração](configuracao) | [Arquitetura](arquitetura) | [Código](codigo) | [BD](banco_dados) | [Qualidade](qualidade) | [Utilização](utilizacao) | [Instalação](instalação)
+| :--------------: | :---------------------------: | :------------------: | :--------------: | :--------------------------: | :------------------------: | :--------------: | :---------------: | :--------------------: | :----------------------: | :-----------------------------: |
 
 <img src="resources\images\logos\Gitlab_Logo.png" width="300">
 
