@@ -5,6 +5,12 @@
 
 ---
 
+
+* [**PostgreSQL**](#postgresql)
+* [**Postman**](#postman)
+
+
+
 ### POSTGRESQL
 
 * [**Linux**](#linux)
@@ -85,4 +91,32 @@ createdb -h localhost -p 5432 -U postgres joinfut
 <img src="resources/images/installation/conexao_datagrip.png">
 
 * Com isso, estamos conectados no banco de dados e na base de dados que iremos utilizar
+
+---
+
+### Postman
+
+* [**Linux**](#postmanlinux)
+* [**Windows**](#postmanwindows)
+
+#### Postman Linux
+
+* Acesse [Site oficial](https://www.postman.com/downloads/)
+* Abra um console no diretório onde foi baixado o postman:
+
+```shell
+$ tar -xzvf tar -xzvf postman-linux-x64.tar.gz 
+```
+
+* Acesse o Diretório criado e rode o executável **Postman**
+
+```shell
+$ cd Postman
+$ ./Postman
+```
+
+* Faça login no seu email Google
+* Pode trocar o tema para escuro caso seja muito claro
+
+
 
