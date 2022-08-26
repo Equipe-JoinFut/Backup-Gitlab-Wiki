@@ -52,11 +52,27 @@ TBD
 
 <h3 id="back-end-mods-sis">Módulos do Sistema</h3>
 
-TBD
+<img src="resources/images/arquitecture/organizacao_repos.png">
 
-### Diagrama de Fluxo
+* **src.main.java** = caminho para os diretórios do projeto.
+  * **com.ages.joinfut** = caminho para os arquivos oficiais da arquitetura
+    * **config** = diretório onde ficam as configurações globais
+      * **generic** = diretório onde ficam os arquivos genéricos utilizados no projeto.
+      * **validation** = diretório onde ficam o tratamento de erros e validações globais.
+    * **controller** = diretório onde ficam os arquivos de controle das requisições a API REST.
+    * **dto** = diretório onde ficam o tratamento de dados e suas validações das requisições para o banco.
+    * **Enum** = diretório onde ficam os objetos enumerados (que possuem valores padrões) que podem ser utilizados.
+    * **model** = diretório onde ficam as entidades (a estrutura de informações que vão ser salvos no banco).
+    * **repository** = diretório onde ficam os arquivos de tratamento das camadas de persistência do JPA.
+    * **service** = diretório onde ficam validações mais complexas e funções utilizadas pelas requisições.
+  * **resources** = diretório onde fica o `application.properties` com as configurações do spring
+  * **test** = diretório onde ficam os testes do projeto
 
-TBD
+### Diagramas
+
+#### Diagrama do caminho das requisições
+
+<img src="resources/images/arquitecture/Flow_das_Requisicoes.png">
 
 ## Frontend
 
