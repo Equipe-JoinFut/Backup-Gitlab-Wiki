@@ -44,7 +44,11 @@ TBD
 
 <h3 id="back-end-def-tec">Definições de Tecnologias</h3>
 
-TBD
+* [**Java 8**]()
+* [**Maven 3.6.3**]()
+* [**PostgreSQL 12**]()
+* [**Intellij 2022.1**]()
+* [**Postman**]()
 
 <h3 id="back-end-mods-sis">Módulos do Sistema</h3>
 
