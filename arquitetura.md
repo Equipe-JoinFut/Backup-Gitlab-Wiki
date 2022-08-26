@@ -46,9 +46,9 @@ TBD
 
 * [**Java 8**]()
 * [**Maven 3.6.3**]()
-* [**PostgreSQL 12**]()
-* [**Intellij 2022.1**]()
-* [**Postman**]()
+* [**PostgreSQL 12**](https://tools.ages.pucrs.br/Joinfut/joinfut-wiki/-/wikis/instala%C3%A7%C3%A3o#postgresql)
+* [**Intellij 2022.1**](https://www.jetbrains.com/pt-br/idea/download/)
+* [**Postman**](https://www.postman.com/downloads/)
 
 <h3 id="back-end-mods-sis">Módulos do Sistema</h3>
 
