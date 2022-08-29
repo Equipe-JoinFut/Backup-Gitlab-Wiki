@@ -11,33 +11,33 @@
 [![](https://img.shields.io/badge/Qualidade-323330?style=for-the-badge)](qualidade)
 [![](https://img.shields.io/badge/Markdown-323330?style=for-the-badge)](markdown)
 [![](https://img.shields.io/badge/ger%C3%AAncia-323330?style=for-the-badge)](gerencia)
-[![](https://img.shields.io/badge/squads-323330?style=for-the-badge)](squads)
+[![](https://img.shields.io/badge/squads-FF4500?style=for-the-badge)](squads)
 [![](https://img.shields.io/badge/retrospectivas-323330?style=for-the-badge)](Retro)
-[![](https://img.shields.io/badge/estudos-FF4500?style=for-the-badge)](estudos)
+[![](https://img.shields.io/badge/estudos-323330?style=for-the-badge)](estudos)
 
 ---
 
-# Guia de estudos
+# Organização das Squads nas Sprints
 
- ## Frontend
-  * Documentação React: https://pt-br.reactjs.org/docs/getting-started.html
-  * React JS Crash Course 2021: https://www.youtube.com/watch?v=w7ejDZ8SWv8
-  * Documentação Material-UI: https://material-ui.com/
-  * W3school React: https://www.w3schools.com/react/default.asp
-  * W3school HTML: https://www.w3schools.com/html/default.asp
-  * W3school CSS: https://www.w3schools.com/css/default.asp
-  * W3school JavaScript: https://www.w3schools.com/js/default.asp
-  * Playlist React: https://www.youtube.com/watch?v=b04Tz5w4cXM&list=PL85ITvJ7FLohz54DLfinJeHi7DrHGT2_U
+## Sprint 1
 
-  
+**Squad do Banco de dados**
 
+* [Alexya Silva Rocha de Oliveira](https://tools.ages.pucrs.br/alexya.oliveira)
+* [Edson Ricardo da Costa](https://tools.ages.pucrs.br/edson.costa)
+* [Vittoria Carolina da Silva Presa](https://tools.ages.pucrs.br/vittoria.silva)
 
- ## Backend
-  * Documentação Node JS: https://nodejs.org/en/docs/
-  * W3school Node JS: https://www.w3schools.com/nodejs/default.asp
-  * Playlist Node: https://www.youtube.com/watch?v=BN_8bCfVp88&list=PL85ITvJ7FLoiXVwHXeOsOuVppGbBzo2dp
+**Squad do Backend**
 
- ## Banco de dados
-  * W3school SQL: https://www.w3schools.com/sql/
-    
- 
+* [Edson Ricardo da Costa](https://tools.ages.pucrs.br/edson.costa)
+* [Gabriel Fanto Stundner](https://tools.ages.pucrs.br/gabriel.stundner)
+* [Vittoria Carolina da Silva Presa](https://tools.ages.pucrs.br/vittoria.silva)
+* [Thales Cordoni da Veiga](https://tools.ages.pucrs.br/thales.veiga)
+* [Thiago Chies Claas](https://tools.ages.pucrs.br/thiago.claas)
+
+**Squad do Frontend**
+
+* [Alexya Silva Rocha de Oliveira](https://tools.ages.pucrs.br/alexya.oliveira)
+* [Christopher da Rosa Michel](https://tools.ages.pucrs.br/christopher.michel)
+* [Eduardo de Carvalho Meireles](https://tools.ages.pucrs.br/eduardo.meireles)
+* [Rafael Dias Puhl](https://tools.ages.pucrs.br/rafael.puhl)
