@@ -1,10 +1,17 @@
-# Como instalar o Flutter
-
-* [Windows](#Windows)
-* [Linux](#Linux)
+[![](https://img.shields.io/badge/P%C3%A1gina%20Inicial-323330?style=for-the-badge)](home)
+[![](https://img.shields.io/badge/Instala%C3%A7%C3%A3o-323330?style=for-the-badge)](Instalação)
 
 ---
 
+# Como instalar o Flutter
+
+
+* [Windows](frontend/flutter_instalacao#windows)
+* [Linux](frontend/flutter_instalacao#linux)
+
+---
+
+<a name="windows"></a>
 ## Windows
 
 
@@ -79,6 +86,7 @@ Na imagem acima diz que falta instalar o Google Chrome para desenvolvimento web,
 
 ---
 
+<a name="linux"></a>
 ## Linux
 
 ### Instalando o Android Studio
