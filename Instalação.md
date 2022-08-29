@@ -29,17 +29,17 @@
 
 ## Backend
 
-* [**Postman**](#postman)
-* [**Java**](#java)
-* [**Maven**](#maven)
+* [**Postman**](#Postman)
+* [**Java**](#Java)
+* [**Maven**](#Maven)
 
 ## Frontend
 
-* 
+* [**Flutter**](frontend/flutter_instalacao)
 
 ## Database
 
-* [**PostgreSQL**](#postgresql)
+* [**PostgreSQL**](#POSTGRESQL)
 * Pgadmin 4 (Em construção)
 
 
@@ -68,6 +68,8 @@ $ ./Postman
 
 * Faça login no seu email Google
 * Pode trocar o tema para escuro caso seja muito claro
+
+#### Postman no Windows
 
 ---
 
@@ -109,6 +111,8 @@ javac --version
 ```
 
 **Java 11.0.16** é a ultima versão dessa versão do java
+
+#### Java no Windows
 
 
 ---
@@ -159,7 +163,7 @@ mvn -version
 # OS name: "linux", version: "5.15.0-46-generic", arch: "amd64", family: "unix"
 ```
 
-
+#### Maven no Windows
 
 ---
 
@@ -244,7 +248,18 @@ createdb -h localhost -p 5432 -U postgres joinfut
 
 * Com isso, estamos conectados no banco de dados e na base de dados que iremos utilizar
 
+
+#### PostgreSQL no Windows
+
 ---
+
+### PgAdmin
+
+---
+
+### Flutter
+
+
 
 
 

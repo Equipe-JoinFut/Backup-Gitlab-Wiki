@@ -58,8 +58,4 @@
 
 ## Imagem do time
 
-
-
-## Termo de Abertura
-
-<img src="resources\images\home\termo_abertura_joinfut.png">
+TBD

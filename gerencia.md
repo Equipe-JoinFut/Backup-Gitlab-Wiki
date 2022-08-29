@@ -17,88 +17,75 @@
 
 ---
 
-# Gerência
+# Área da Gerência do projeto
 
 ## Acesso rápido
 
-- Termo de Abertura do Projeto
- - Estrutura Analítica do Projeto (EAP)
- - User Story
-- Cronograma
-- Matriz de responsabilidade
-- Sprints
+- [**Termo de Abertura do Projeto**](#Termo)
+- [**Estrutura Analítica do Projeto**](#EAP)
+- [**Matriz de responsabilidade**](#Responsabilidade)
+- [**Plano de Comunicação**](#Comunicação)
+- [**Plano de Riscos**](#Riscos)
+- [**Sprints**](#Sprints)
+- [User Story do projeto](#US)
 
-## Matriz de responsabilidades
+---
 
-[Matriz de responsabilidade no Google Sheets](https://docs.google.com/spreadsheets/d/1ehh1Nrq_1UXt9THXKpogVoP5SDiMaa2Av8d8LeQsVpA/edit?usp=sharing)
+## Termo
 
-**Sprint 0**
+<img src="resources\images\home\termo_abertura_joinfut.png">
 
-| Atividade | AGES I | AGES II | AGES III | AGES IV |
-| --------- | ------ | ------- | -------- | ------- |
-| Alimentar a wiki | R | R | R | R |
-| Definir ferramenta de mockups | C | R | A | A |
-| Desenvolver mockups | C | R/A | C | A |
-| Definir arquitetura | I | I | R/A | C/A |
-| Definir tecnologias (front/back) | C | C | R/A | A |
-| Criar projeto inicial (front/back) | I | I | R/A | A |
-| Definir estratégia de Verificação e Validação | I | C | R/A | C/A |
-| Documentar projeto/arquitetura inicial | I | I | R/A | A |
-| Criar User Stories | C | C | C | R/A |
-| Realizar estudos dirigidos | R | R | R | R |
-| Definir plano de comunicações | I | I | I | R/A |
-| Definir organização do time | I | I | C | R/A |
-| Documentação de requisitos | R/A | C | C | A |
-| Definir o git workflow | C | C | R | A |
-| Modelar o BD (conceitual/lógico) | I | R/A | R/A | A |
-| Apresentar no dia 23/08 | C | C | C | R |
+---
 
-**Sprint 1,2,3,4**
+## EAP
 
-| Atividade | AGES I | AGES II | AGES III | AGES IV |
-| --------- | ------ | ------- | -------- | ------- |
-| Alimentar a wiki | R | R | R | R |
-| Definir squads | C | R | A | A |
-| Definir marcos da sprint | I | I | C | R/A |
-| Quebra de tasks | C | C | R | R/A |
-| Documentar projeto/arquitetura inicial | I | I | R/A | A |
-| Desenvolvimento | R | R | R/A | C/A |
-| Code review| C | C | R/A | C |
-| Deploy da aplicação | I | I | R | A |
-| Definir organização do time | I | I | C | R/A |
-| Documentação de requisitos | R/A | C | C | A |
-| Definir o git workflow | C | C | R | A |
-| Apresentação da review | C | C | C | R |
+TBD
 
-**Apresentações ao Stakeholder**
+---
 
-|Sprint | Pessoa (R)|
-| --------- | ------ |
-| 0 | Max Franke |
-| 1 | Lucas Schell |
-| 2 | Frederico Thofehrn |
-| 3 | Max Franke |
-| 4 | A Definir |
+## Responsabilidade
 
-## Plano de Comunicação
-| Evento | Descrição | Responsável | Envolvidos | Frequência | Duração |
-| --------- | ------ | ------- | -------- | ------- | ------- |
-| Kickoff | A reunião de kickoff serve para convergir os interesses do Cliente e do time. Nela tiramos as dúvidas e alinhamos o que será desenvolvido no projeto com o auxílio do cliente. | Cliente | AGES I, II, III, IV e Cliente | Uma vez | 1 hora e 30 minutos |
-| Daily | Atualização de cada integrante do time sobre o que foi feito desde o último encontro, o que será feito, se há algum problema ou algo a ser comentado. | Ages IV | AGES I, II, III, IV | Seg e Quarta, 17:30 | 15 minutos |
-| Sprint Review | Avalia-se o que foi feito e desenvolvido durante a Sprint | Ages IV | AGES I, II, III, IV e Cliente. | A cada final de sprint | 1 hora |
-| Sprint Planning |Avalia-se o que será realizado durante a Sprint, priorizando os itens do Backlog para aquela Sprint. | Ages IV | AGES I, II, III, IV e Cliente | A cada final de Sprint  | 30 minutos |
-| Sprint Retrospective | A retrospectiva trata-se de uma oportunidade para o time avaliar fraquezas e fortalezas a serem implementadas para próxima Sprint. Ocorre a discussão do que foi bom/ruim durante a Sprint e é o jeito de formalizar o que foi feito de bom/ruim durante aquele aquele período de tempo. | Ages IV | AGES I, II, III, IV | A cada final de Sprint.  | 1 hora e 30 minutos |
+Essa matriz foi desenvolvida para ajudar os membros do time a saberem seus papéis na dentro do processo de desenvolvimento.
 
+| **Atividades**             | **AGES I** | **AGES II** | **AGES III** | **AGES IV** |
+| -------------------------- | :--------: | :---------: | :----------: | :---------: |
+| Alimentar a wiki           |      R     |      R      |       C      |      A      |
+| Definir squads             |      I     |      I      |       I      |      A      |
+| Definir marcos da sprint   |      I     |      I      |       I      |      A      |
+| Quebra de tasks            |      I     |      I      |       C      |      A      |
+| Desenvolvimento            |      R     |      R      |       A      |      A      |
+| Code review                |      I     |      I      |       A      |      C      |
+| Executar testes funcionais |      I     |      R      |       C      |      A      |
+| Deploy da aplicação        |      I     |      I      |       A      |      R      |
+| Apresentação da review     |      I     |      I      |       I      |      A      |
 
-## Plano de riscos
+- I: Deve ser informado
+- C: Deve ser consultado
+- R: Responsável
+- A: Aprova
 
-| Risco | Probabilidade | Impacto | Severidade | Estratégia | Ações |
-| --------- | ------ | ------- | -------- | ------- | ------- |
-| Falta de engajamento de membros | 4 | 5 | 20 | Mitigar | Avaliar com colegas e comunicar quando isso acontecer. Caso esteja muito difícil de lidar com esse risco, reorganizar os times. |
-| Problemas inesperados na demostração para o cliente | 4 | 5 | 20 | Eliminar | Realizar testes prévios e validar na noite anterior à apresentação | 
-| Alterações de escopo | 4 | 5 | 20 | Mitigar | Definir no inicio do projeto  e validar qualquer tipo de mudança com o time | 
-| Falta de presença do stakeholder | 2 | 5 | 10 | Transferir | Validar na manhã da apresentação com o cliente. Manter comunicação presente. |
-| Falta de entrega de User Stories planejadas | 4 | 4 | 16 | Mitigar | Definir tempo de desenvolvimento das tarefas. Acompanhar desenvolvimento do time. Ajudar no que for necessário. |
+---
 
+## Comunicação
 
+|           **Evento**           |                                                                                                                                                                                                                                **Descrição**                                                                                                                                                                                                                                | **Responsável** |          **Envolvidos**          |                                   **Frequência**                                    |               **Duração**               |
+| :----------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------: | :------------------------------: | :---------------------------------------------------------------------------------: | :-------------------------------------: |
+| Kick Off (Exemplo) | Primeiro encontro entre o time e os stakeholders do projeto. Nesse encontro são apresentados os principais itens do projeto e a ideia geral. Também são realizados questionamentos sobre o que foi apresentado, com a finalidade de ajudar nas definições dos requisitos do projeto em conjunto com o cliente. (Exemplo) | Cliente(s) (Exemplo) | AGES I, II, III, IV e Cliente(s) (Exemplo) | Uma vez (início do projeto) (Exemplo) |      1 hora - 1 hora e 30 minutos (Exemplo) |
+| TBD... | TBD... | TBD... | TBD... | TBD... | TBD... |
 
+---
+
+## Riscos
+
+| Risco                                                 | Prevenção                                                                                  | Contingência                                                                                  | Estratégia |
+| ----------------------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- | ---------- |
+| Atingir limite de uso gratuito da AWS (Exemplo) | Utilizar servidores apenas para validação, desligando-os quando não utilizados (Exemplo) | Alterar ambiente para outra conta de usuário (Exemplo) | Transferir (Exemplo) |
+| TBD... | TBD... | TBD... | TBD... |
+
+---
+
+## Sprints
+
+---
+
+## US
