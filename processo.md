@@ -29,9 +29,6 @@ Os processos implementados são processos utilizados no mercado de trabalho em p
 - [Git Workflow](#git-workflow)
 - [Wiki Workflow](#wiki-workflow)
 - [Sincronização ao Github](#Sincronizacao)
-- [Matriz de Responsabilidade](#matriz-de-responsabilidade)
-- [Plano de Comunicação](#plano-de-comunicação)
-- [Plano de Riscos](#plano-de-riscos)
 
 ## Nomenclaturas
 

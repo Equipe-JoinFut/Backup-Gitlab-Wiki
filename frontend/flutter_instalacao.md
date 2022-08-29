@@ -15,7 +15,7 @@
 * Após baixado, siga a instalação padrão clicando em Next até chegar no Install
 * Após instalado, vai seguindo em next até a parte das licenças:
 
-![image](resources/images/installation/flutter/licencas_android.png)
+<img src="resources/images/installation/flutter/licencas_android.png">
 
 * Deixe ele instalar todos os componentes necessários
 
