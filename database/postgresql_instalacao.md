@@ -85,7 +85,7 @@ createdb -h localhost -p 5432 -U postgres joinfut
 
 * Nele, colocamos os dados necessários, como abaixo:
 
-<img src="resources/images/installation/conexao_datagrip.png">
+<img src="../resources/images/installation/conexao_datagrip.png">
 
 * Com isso, estamos conectados no banco de dados e na base de dados que iremos utilizar
 
