@@ -15,15 +15,15 @@
 * Após baixado, siga a instalação padrão clicando em Next até chegar no Install
 * Após instalado, vai seguindo em next até a parte das licenças:
 
-<img src="resources/images/installation/flutter/licencas_android.png">
+<img src="../resources/images/installation/flutter/licencas_android.png">
 
 * Deixe ele instalar todos os componentes necessários
 
-![image](resources/images/installation/flutter/instalando_componentes.png)
+<img src="../resources/images/installation/flutter/instalando_componentes.png">
 
 * Depois de instalado tudo ele chega nessa tela inicial
 
-![image](resources/images/installation/flutter/pagina_inicial.png)
+<img src="../resources/images/installation/flutter/pagina_inicial.png">
 
 
 ### Baixando o SDK do Flutter e configurando o Path
@@ -38,25 +38,25 @@ caso não tenha o diretório src, crie como abaixo
 
 extraia tudo do .zip com o nome da pasta como flutter.
 
-![image](resources/images/installation/flutter/criando_src.png)
+<img src="../resources/images/installation/flutter/criando_src.png">
 
 Acesse as variaveis de sistemas
 
-![image](resources/images/installation/flutter/editar_variaveis_find.png)
+<img src="../resources/images/installation/flutter/editar_variaveis_find.png">
 
-![image](resources/images/installation/flutter/acessar_variaveis_ambiente.png)
+<img src="../resources/images/installation/flutter/acessar_variaveis_ambiente.png">
 
-![image](resources/images/installation/flutter/editando_path.png)
+<img src="../resources/images/installation/flutter/editando_path.png">
 
-![image](resources/images/installation/flutter/variaveis_clique.png)
+<img src="../resources/images/installation/flutter/variaveis_clique.png">
 
 Coloque no path o caminho do bin do android studio, do Flutter e do dart que vem junto com Flutter.
 
-![image](resources/images/installation/flutter/colocando_variavel_path_flutter.png)
+<img src="../resources/images/installation/flutter/colocando_variavel_path_flutter.png">
 
 Coloque também nas variáveis do sistema o Flutter
 
-![image](resources/images/installation/flutter/colocando_variavel_path_sistema_flutter.png)
+<img src="../resources/images/installation/flutter/colocando_variavel_path_sistema_flutter.png">
 
 Reinicie o Windows
 
@@ -70,7 +70,7 @@ Rode o comando do [**Flutter Doctor**]()
 
 Deve aparecer essas informações:
 
-![image](resources/images/installation/flutter/console_flutter_doctor.png)
+<img src="../resources/images/installation/flutter/console_flutter_doctor.png">
 
 Na imagem acima diz que falta instalar o Google Chrome para desenvolvimento web, visual studio para desenvolvimento no windows e o android sdk
 
@@ -100,15 +100,15 @@ $ ./studio.sh
 
 * Siga os passos de instalação clicando em **Next** e **Accept** em tudo
 
-![image](resources/images/installation/flutter/licencas_android.png)
+<img src="../resources/images/installation/flutter/licencas_android.png">
 
 * Deixe ele instalar todos os componentes necessários
 
-![image](resources/images/installation/flutter/instalando_componentes.png)
+<img src="../resources/images/installation/flutter/instalando_componentes.png">
 
 * Depois de instalado tudo ele chega nessa tela inicial
 
-![image](resources/images/installation/flutter/pagina_inicial.png)
+<img src="../resources/images/installation/flutter/pagina_inicial.png">
 
 ### Instalando o Flutter pelo GIT
 
@@ -122,7 +122,7 @@ $ git clone https://github.com/flutter/flutter.git -b stable
 
 * coloque o aplicativo do flutter em uma pasta específica, como o [**~/**]()
 
-![image](resources/images/installation/flutter/install_linux_flutter.png)
+<img src="../resources/images/installation/flutter/install_linux_flutter.png">
 
 * Atualize o Path com o caminho até o diretório do Flutter, colocando no final do arquivo [**~/.bashrc**]()
 
@@ -132,7 +132,7 @@ $ export PATH="$PATH:~/flutter/bin"
 
 * pelo VIM
 
-![image](resources/images/installation/flutter/adicionando_export.png)
+<img src="../resources/images/installation/flutter/adicionando_export.png">
 
 * Rode o comando **source** para atualizar o status do arquivo
 
@@ -149,11 +149,11 @@ $ echo $PATH
 * Coloque o comando [**flutter**]() no console, se aparecer informações
 * Ele vai baixar o Dart e outras dependencias iniciais
 
-![image](resources/images/installation/flutter/install_dart_linux.png)
+<img src="../resources/images/installation/flutter/install_dart_linux.png">
 
 * Após baixado as coisas, ele vai mostrar o seguinte quadro
 
-![image](resources/images/installation/flutter/install_linux_flutter.png)
+<img src="../resources/images/installation/flutter/install_linux_flutter.png">
 
 * Vá até o local onde o Flutter foi instalado e rode o seguinte comando no diretório do Flutter
 
@@ -161,6 +161,6 @@ $ echo $PATH
 $ flutter doctor
 ```
 
-![image](resources/images/installation/flutter/flutter_doctor_linux.png)
+<img src="../resources/images/installation/flutter/flutter_doctor_linux.png">
 
 
