@@ -27,23 +27,26 @@
 - [**Plano de Comunicação**](#Comunicação)
 - [**Plano de Riscos**](#Riscos)
 - [**Sprints**](#Sprints)
-- [User Story do projeto](#US)
+- [**User Story do projeto**](#US)
 
 ---
 
-## Termo
+<a name="Termo"></a>
+## Termo de Abertura do Projeto
 
 <img src="resources\images\home\termo_abertura_joinfut.png">
 
 ---
 
-## EAP
+<a name="EAP"></a>
+## Estrutura Analítica do Projeto
 
 TBD
 
 ---
 
-## Responsabilidade
+<a name="Responsabilidade"></a>
+## Matriz de responsabilidade
 
 Essa matriz foi desenvolvida para ajudar os membros do time a saberem seus papéis na dentro do processo de desenvolvimento.
 
@@ -66,7 +69,8 @@ Essa matriz foi desenvolvida para ajudar os membros do time a saberem seus papé
 
 ---
 
-## Comunicação
+<a name="Comunicação"></a>
+## Plano de Comunicação
 
 |           **Evento**           |                                                                                                                                                                                                                                **Descrição**                                                                                                                                                                                                                                | **Responsável** |          **Envolvidos**          |                                   **Frequência**                                    |               **Duração**               |
 | :----------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------: | :------------------------------: | :---------------------------------------------------------------------------------: | :-------------------------------------: |
@@ -75,7 +79,8 @@ Essa matriz foi desenvolvida para ajudar os membros do time a saberem seus papé
 
 ---
 
-## Riscos
+<a name="Riscos"></a>
+## Plano de Riscos
 
 | Risco                                                 | Prevenção                                                                                  | Contingência                                                                                  | Estratégia |
 | ----------------------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- | ---------- |
@@ -84,8 +89,10 @@ Essa matriz foi desenvolvida para ajudar os membros do time a saberem seus papé
 
 ---
 
+<a name="Sprints"></a>
 ## Sprints
 
 ---
 
-## US
+<a name="US"></a>
+## User Story do projeto
