@@ -1,9 +1,16 @@
 | [**Home**](home) | [Escopo e Cronograma](escopo) | [Processo](processo) | [Design/Mockups](design_mockups) | [Configuração](configuracao) | [Arquitetura](arquitetura) | [Código](codigo) | [BD](banco_dados) | [Qualidade](qualidade) | [Utilização](utilizacao) | [Instalação](instalação)
 | :--------------: | :---------------------------: | :------------------: | :--------------: | :--------------------------: | :------------------------: | :--------------: | :---------------: | :--------------------: | :----------------------: | :-----------------------------: |
 
-<img src="resources\images\logos\Gitlab_Logo.png" width="300">
+---
 
-# Bem vindo à Wiki do Joinfut
+[![](https://img.shields.io/badge/P%C3%A1gina%20Inicial-323330?style=for-the-badge)](home)
+
+---
+
+
+# Bem vindo à Wiki do projeto Joinfut
+
+<img src="resources\images\logos\Gitlab_Logo.png" width="300">
 
 ## Equipe
 
@@ -38,6 +45,11 @@
 
 * [João Pedro Picetti Medeiros](https://tools.ages.pucrs.br/joao.medeiros)
 * [Vinicius Jaggi](https://tools.ages.pucrs.br/vinicius.jaggi)
+
+
+## Imagem do time
+
+
 
 ## Termo de Abertura
 

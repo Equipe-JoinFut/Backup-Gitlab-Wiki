@@ -5,11 +5,101 @@
 
 ---
 
+## IDE
+
+* Intellij (Em construção)
+* Datagrip (Em construção)
+* VSCODE (Em construção)
+
+## Backend
+
+* [**Postman**](#postman)
+* [**Java**](#java)
+* Maven (Em construção)
+
+## Frontend
+
+* 
+
+## Database
 
 * [**PostgreSQL**](#postgresql)
-* [**Postman**](#postman)
+* Pgadmin 4 (Em construção)
 
 
+---
+
+### Postman
+
+* [**Linux**](#postmanlinux)
+* [**Windows**](#postmanwindows)
+
+#### Postman Linux
+
+* Acesse [Site oficial](https://www.postman.com/downloads/)
+* Abra um console no diretório onde foi baixado o postman:
+
+```shell
+$ tar -xzvf tar -xzvf postman-linux-x64.tar.gz 
+```
+
+* Acesse o Diretório criado e rode o executável **Postman**
+
+```shell
+$ cd Postman
+$ ./Postman
+```
+
+* Faça login no seu email Google
+* Pode trocar o tema para escuro caso seja muito claro
+
+---
+
+
+### Java
+
+* Versão do Java que iremos utilizar: `Java 11`
+
+#### Linux
+
+**Instalação do Java 11 no linux**
+
+```shell
+sudo apt install openjdk-11-jre-headless
+```
+
+* Para testar se instalou
+
+```shell
+java --version
+
+#openjdk 11.0.16 2022-07-19
+#OpenJDK Runtime Environment (build 11.0.16+8-post-Ubuntu-0ubuntu122.04)
+#OpenJDK 64-Bit Server VM (build 11.0.16+8-post-Ubuntu-0ubuntu122.04, mixed mode, sharing)
+```
+
+**Instalação do Javac (Java compiler) no linux**
+
+```shell
+sudo apt install openjdk-11-jdk-headless
+```
+
+* Para testar se instalou
+
+```shell
+javac --version
+
+#javac 11.0.16
+```
+
+**Java 11.0.16** é a ultima versão dessa versão do java
+
+
+---
+
+### Maven
+
+---
 
 ### POSTGRESQL
 
@@ -52,9 +142,9 @@ ALTER USER postgres with encrypted password 'postgres';
 
 # Clique Ctrl + D para sair do postgres
 # acesse o arquivo abaixo
-sudo vim /etc/postgresql/9.1/main/pg_hba.conf
+sudo vim /etc/postgresql/12/main/pg_hba.conf
 
-# troque a mensagem de vez de peer para md5 e depois salve
+# troque a mensagem de vez de peer para md5 e depois salve no vim (:wq)
 local all postgres md5
 
 # reinicie o arquivo de configuração
@@ -93,30 +183,6 @@ createdb -h localhost -p 5432 -U postgres joinfut
 * Com isso, estamos conectados no banco de dados e na base de dados que iremos utilizar
 
 ---
-
-### Postman
-
-* [**Linux**](#postmanlinux)
-* [**Windows**](#postmanwindows)
-
-#### Postman Linux
-
-* Acesse [Site oficial](https://www.postman.com/downloads/)
-* Abra um console no diretório onde foi baixado o postman:
-
-```shell
-$ tar -xzvf tar -xzvf postman-linux-x64.tar.gz 
-```
-
-* Acesse o Diretório criado e rode o executável **Postman**
-
-```shell
-$ cd Postman
-$ ./Postman
-```
-
-* Faça login no seu email Google
-* Pode trocar o tema para escuro caso seja muito claro
 
 
 
