@@ -5,7 +5,7 @@
 
 # Instalação do Java para o projeto
 
-* Versão do Java que iremos utilizar: `Java 11`
+* Versão do Java que iremos utilizar: ![](https://img.shields.io/badge/JAVA-11.0.16-orange)
 
 ## Glossário
 
@@ -15,7 +15,8 @@
 ---
 
 <a name="linux"></a>
-#### Linux
+
+### Linux
 
 **Instalação do Java 11 no linux**
 
@@ -50,5 +51,34 @@ javac --version
 **Java 11.0.16** é a ultima versão dessa versão do java
 
 <a name="windows"></a>
-#### Java no Windows
 
+### Java no Windows
+
+* O arquivo para baixar o Java 11 para facilitar o trabalho se encontra [Aqui](https://drive.google.com/file/d/1oRNhV8FQokBOebcAWhkjy0zM0ih1hlvv/view?usp=sharing).
+    * Esse arquivo é o **Java JDK**, é o Java necessário para o desenvolvimento nessa linguagem.
+
+Para instalar o programa no windows, clique duas vezes nele e verá a seguinte página:
+
+Clique em **Next**.
+
+<img src="resources/images/java_windows/1.png">
+
+Clique em **Next**.
+
+<img src="resources/images/java_windows/2.png">
+
+Ele vai instalar o Java em seu computador na pasta definida acima e configurar o JAVA_PATH automaticamente nas suas variáveis de ambiente, versões anteriores não faziam isso por nós.
+
+<img src="resources/images/java_windows/3.png">
+
+Depois de instalado, abra um terminal clicando <kbd>Windows</kbd> + <kbd>R</kbd> e escrevendo **cmd**.
+
+<img src="resources/images/java_windows/4.png">
+
+No terminal rode o seguinte comando: `java -version` para verificar se tem o java padrão instalado.
+
+<img src="resources/images/java_windows/5.png">
+
+Por último, para verificar se o JDK foi instalado com sucesso, rode o comando `javac -version`, se aparecer a mensagem da versão do java compiler, funcionou.
+
+<img src="resources/images/java_windows/6.png">
