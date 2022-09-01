@@ -23,7 +23,7 @@
 
 ## IDE
 
-* Intellij (Em construção)
+* [**Intellij**](backend/intellij_instalacao)
 * Datagrip (Em construção)
 * VSCODE (Em construção)
 

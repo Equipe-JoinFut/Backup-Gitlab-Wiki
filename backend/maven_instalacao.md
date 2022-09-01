@@ -5,6 +5,8 @@
 
 # Instalação do Maven
 
+* Versão do Maven que iremos utilizar: ![](https://img.shields.io/badge/Maven-3.6.3-green)
+
 ## Glossário
 
 * [**Linux**](backend/maven_instalacao#linux)
