@@ -13,7 +13,8 @@
 ---
 
 <a name="linux"></a>
-##### Linux
+
+## Linux
 
 - **POSTGRESQL**
 
@@ -92,4 +93,8 @@ createdb -h localhost -p 5432 -U postgres joinfut
 ---
 
 <a name="windows"></a>
-#### PostgreSQL no Windows
+
+## PostgreSQL no Windows
+
+* Acesse este site para fazer [Download](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
+

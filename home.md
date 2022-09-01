@@ -17,6 +17,10 @@
 
 ---
 
+[![](https://img.shields.io/badge/Área_do_backend-323330?style=for-the-badge)](backend/backend_home) [![](https://img.shields.io/badge/Área_do_frontend-323330?style=for-the-badge)](frontend/frontend_home) [![](https://img.shields.io/badge/Área_do_Database-323330?style=for-the-badge)](database/database_home)
+ 
+---
+
 # Bem vindo ao projeto JoinFut
 
 <img src="resources\images\logos\Gitlab_Logo.png" width="300">

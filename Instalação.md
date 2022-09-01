@@ -17,30 +17,23 @@
 
 ---
 
-# Área de informações de programas que precisam ser instalados
+# Área de informações sobre instalações
 
 ---
 
-## IDE
+## Desenvolvimento
 
-* [**Intellij**](backend/intellij_instalacao)
-* Datagrip (Em construção)
-* VSCODE (Em construção)
+|Link para a página|Descrição
+|---|---|
+|[**Intellij**](backend/intellij_instalacao)| IDE para desenvolvimento java para o [**Backend**](backend/backend_home)
+|[**Datagrip**](backend/datagrip_instalacao)| IDE para banco de dados para o [**Backend**](backend/backend_home)
+|[**Postman**](backend/postman_instalacao)| Programa para testar requisições criadas pelo [**Backend**](backend/backend_home)
+|[**Java**](backend/java_instalacao)| Compilador para programas Java, que é nossa linguagem oficial do [**Backend**](backend/backend_home)
+|[**Maven**](backend/maven_instalacao)| Ferramenta de automação de compilação para projetos java, para facilitar o processo do [**Backend**](backend/backend_home)
+|[**Flutter**](frontend/flutter_instalacao)| Framework de desenvolvimento para o projeto [**Frontend**](frontend/frontend_home)
+|[**PostgreSQL**](database/postgresql_instalacao)| É o sistema de gerenciador de banco de dados que iremos utilizar para o nosso projeto, ele principalmente é usado com o [**Backend**](backend/backend_home)
+|PgAdmin 4 (Em construção)| É um projeto open source que auxilia no gerenciamento do PostgreSQL, mas pode ser utilizado o [**Datagrip**](backend/datagrip_instalacao)
 
-## Backend
-
-* [**Postman**](backend/postman_instalacao)
-* [**Java**](backend/java_instalacao)
-* [**Maven**](backend/maven_instalacao)
-
-## Frontend
-
-* [**Flutter**](frontend/flutter_instalacao)
-
-## Database
-
-* [**PostgreSQL**](database/postgresql_instalacao)
-* Pgadmin 4 (Em construção)
 
 
 
