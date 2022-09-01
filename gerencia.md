@@ -41,7 +41,7 @@
 <a name="EAP"></a>
 ## Estrutura Analítica do Projeto
 
-<img src="resources\images\gerencia\EAP.jpg>
+<img src="resources\images\gerencia\EAP.jpg">
 
 ---
 
