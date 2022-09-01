@@ -3,6 +3,10 @@
 
 ---
 
+
+
+---
+
 # Instalação do Intellij
 
 ## Glossário
@@ -11,16 +15,35 @@
 * [**Windows**](backend/intellij_instalacao#windows)
 * [**Extensões**](backend/intellij_instalacao#extensao)
 
+---
+
 <a name="linux"></a>
 
-### Linux
+## Linux
 
+aixe a ultima versão do Datagrip no [Site oficial](https://www.jetbrains.com/datagrip/download/#section=linux)
+
+
+
+Deixe terminar de baixar o instalador, enquanto isso crie uma conta de estudante do Datagrip [AQUI](https://www.jetbrains.com/pt-br/community/education/#students)
+
+Faça a extração do arquivo .tar.gz com o comando `tar -xzf <nome_Arquio>.tar.gz` no diretório de sua escolha
+
+<img src="resources/images/datagrip/1_linux.png">
+
+Depois acesse o diretório **bin** do novo diretório gerado e rode o script `datagrip.sh`, esse é o script que roda o Datagrip, você pode utilizar o Script [DatagripStarter.sh](https://tools.ages.pucrs.br/Joinfut/joinfut-database/-/blob/main/Script_Linux/DatagripStarter.sh) para automatizar o inicio do Datagrip, sendo que o Datagrip deve estar na pasta download e o script na pasta desktop e dai só rodar o arquivo pelo terminal com o seguintes comandos:
+
+```shell
+cd Desktop
+chmod +x DatagripStarter.sh
+./DatagripStarter.sh
+```
 
 ---
 
 <a name="windows"></a>
 
-### Windows
+## Windows
 
 Va até a [página oficial](https://www.jetbrains.com/datagrip/) do Datagrip
 
@@ -61,7 +84,7 @@ Pronto! dai só clicar para reiniciar o computador para terminar de instalar tud
 
 <a name="extensao"></a>
 
-### Extensões úteis
+## Extensões úteis
 
 * Uma extensão muito boa é o github theme, onde deixa o datagrip mais escuro, deixando melhor de ver as informações
 
