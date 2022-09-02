@@ -116,5 +116,17 @@ Pronto! agora deixe ele reiniciar o computador e quando iniciar o intellij faça
 
 1) Tema do github
 
-Existem vários temas disponiveis para o intellij, mas o meu favorito é o tema do github:
+Existem vários temas disponiveis para o intellij, mas o meu favorito é o tema do github: tem tanto no datagrip quanto no intellij
+
+Acesse os **Settings** do Intellij/Datagrip.
+
+<img src="resources\images\datagrip\10.png">
+
+Acesse a página **Plugins** e procure pela extensão **Github Themes**
+
+<img src="resources\images\datagrip\11.png">
+
+Ele vai ficar como na imagem abaixo
+
+<img src="resources\images\datagrip\12.png">
 

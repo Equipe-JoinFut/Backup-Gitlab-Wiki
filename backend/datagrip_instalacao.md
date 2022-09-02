@@ -112,6 +112,6 @@ Acesse a página **Plugins** e procure pela extensão **Github Themes**
 
 <img src="resources\images\datagrip\11.png">
 
-
+Ele vai ficar como na imagem abaixo
 
 <img src="resources\images\datagrip\12.png">
