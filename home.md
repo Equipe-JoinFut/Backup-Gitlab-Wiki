@@ -22,7 +22,7 @@
 ---
 
 <table align="center"><tr><td align="center" width="9999">
-<img src="resources\images\logos\Joinfut logo.gif">
+<img src="resources/images/logos/Joinfut logo.gif">
 
 # Bem vindo ao projeto JoinFut
 
