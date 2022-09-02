@@ -84,7 +84,9 @@ A modelagem para esta etapa do proceso foi realizada com a ferramenta BrModelo e
 
 Abaixo, segue definida a modelagem conceitual do projeto na Sprint 0:
 
-<img src="resources\images\JoinFut_Conceitual.png" width="200" height="200">
+<center>
+  <img src="resources\images\JoinFut_Conceitual.png" width="600" height="600">
+</center>
 
 <br>
 
