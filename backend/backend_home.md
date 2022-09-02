@@ -24,7 +24,7 @@
 ---
 
 <table align="center"><tr><td align="center" width="9999">
-<img src="..\resources\images\logos\Joinfut backend.gif">
+<img src="resources\images\logos\joinfut_backend.gif">
 
 # Área do Backend do projeto Joinfut
 
