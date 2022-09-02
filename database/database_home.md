@@ -7,7 +7,7 @@
 ---
 
 <table align="center"><tr><td align="center" width="9999">
-<img src="resources\images\logos\joinfut_database.gif">
+<img src="resources/images/logos/joinfut_database.gif">
 
 # Área do Banco de dado do projeto Joinfut
 
