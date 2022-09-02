@@ -32,6 +32,7 @@
 ---
 
 <a name="Termo"></a>
+
 ## Termo de Abertura do Projeto
 
 <img src="resources\images\home\termo_abertura_joinfut.png">
@@ -39,6 +40,7 @@
 ---
 
 <a name="EAP"></a>
+
 ## Estrutura Analítica do Projeto
 
 <img src="resources\images\gerencia\EAP.jpg">
@@ -46,6 +48,7 @@
 ---
 
 <a name="Responsabilidade"></a>
+
 ## Matriz de responsabilidade
 
 Essa matriz foi desenvolvida para ajudar os membros do time a saberem seus papéis na dentro do processo de desenvolvimento.
@@ -70,6 +73,7 @@ Essa matriz foi desenvolvida para ajudar os membros do time a saberem seus papé
 ---
 
 <a name="Comunicação"></a>
+
 ## Plano de Comunicação
 
 |           **Evento**           |                                                                                                                                                                                                                                **Descrição**                                                                                                                                                                                                                                | **Responsável** |          **Envolvidos**          |                                   **Frequência**                                    |               **Duração**               |
@@ -80,6 +84,7 @@ Essa matriz foi desenvolvida para ajudar os membros do time a saberem seus papé
 ---
 
 <a name="Riscos"></a>
+
 ## Plano de Riscos
 
 | Risco                                                 | Prevenção                                                                                  | Contingência                                                                                  | Estratégia |
@@ -91,9 +96,65 @@ Essa matriz foi desenvolvida para ajudar os membros do time a saberem seus papé
 ---
 
 <a name="Sprints"></a>
+
 ## Sprints
 
 ---
 
 <a name="US"></a>
-## User Story do projeto
+
+## User Storyes do projeto
+
+<details>
+
+<summary> US-01: Cadastro de atleta </summary>
+
+**Como** usuário atleta, **gostaria** de cadastrar meu perfil no aplicativo, **para** que o mesmo esta disponível para visualização dos clubes.
+
+* Campos utilizados para o cadastro:
+    * Nome
+    * Idade
+    * Data de nascimento: 
+    * Endereço (Rua, número da casa, bairro, cidade, estado, país)
+    * CONTATO (e-mail, telefone, contatos dos responsáveis etc) – campo obrigatório
+    * Altura
+    * Peso
+    * IMC (calculado automaticamente com dados de altura e peso)
+    * Perna dominante
+    * Posição 
+    * Código do BID da CBF: (caso atleta tenha) – **CAMPO NÃO OBRIGATÓRIO**
+    * Clubes por onde passou – Campo obrigatório
+    * Doenças pré-existentes? Se sim, quais.
+    * VIDEOS (Velocidade, força, resistência, passe, chute, domínio de bola, cabeceio, jogo “jogado”)
+    * Estilo de jogo (ofensivo, defensivo)
+    * Termo de consentimento de concessão de dados **(deixar apenas um modelo, não temos o documento redigido no momento)**
+
+    <details>
+    <summary> US-01.01: Tela de cadastro de atleta </summary>
+
+    Construir a tela para colocar os dados do atleta para poder cadastrar.    
+
+    </details>
+    <details>
+    <summary> US-01.02: Criar entidade atleta </summary>
+
+    Construir a entidade no springboot com os dados necessários para o atleta e tendo as devidas validações, fazer o cálculo do IMC e verificar o envio desses dados para o banco de dados.   
+
+    </details>
+    <details>
+    <summary> US-01.03: Integração </summary>
+
+    Realizar a integração das funcionalidade do backend com o frontend, persistindo as informações no banco de dados quando fornecidas pela tela do aplicativo.  
+
+    </details>
+    <details>
+    <summary> US-01.04: Verificar estrutura do banco de dados e inserir atletas </summary>
+
+    Criar usuários no banco de dados.
+    Averiguar se os dados criados correspondem com a geração do Springboot, salvamento das estruturas bases dos dados do jogador/atleta, ocultação de senhas e backups de SQL do que foi criado no projeto. 
+
+    </details>
+    
+
+
+</details>
