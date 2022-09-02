@@ -21,9 +21,13 @@
  
 ---
 
+<table align="center"><tr><td align="center" width="9999">
+<img src="resources\images\logos\Joinfut logo.gif">
+
 # Bem vindo ao projeto JoinFut
 
-<img src="resources\images\logos\Gitlab_Logo.png" width="300">
+Projeto desenvolvido na AGES 2022/2
+</td></tr></table>
 
 ## Equipe
 
