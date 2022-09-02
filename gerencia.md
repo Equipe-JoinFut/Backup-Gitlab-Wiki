@@ -87,6 +87,7 @@ Essa matriz foi desenvolvida para ajudar os membros do time a saberem seus papé
 | Atingir limite de uso gratuito da AWS (Exemplo) | Utilizar servidores apenas para validação, desligando-os quando não utilizados (Exemplo) | Alterar ambiente para outra conta de usuário (Exemplo) | Transferir (Exemplo) |
 | TBD... | TBD... | TBD... | TBD... |
 
+<img src="resources\images\gerencia\plano de riscos.jpg">
 ---
 
 <a name="Sprints"></a>
