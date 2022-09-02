@@ -20,15 +20,17 @@
 
 [![](https://img.shields.io/badge/Utilizando_postman-323330?style=for-the-badge)]()
 
----
-
-# Página inicial da área do Backend do projeto Joinfut ⚽
 
 ---
 
-Bem vindos a página inicial do Backend do projeto Joinfut.
+<table align="center"><tr><td align="center" width="9999">
+<img src="..\resources\images\logos\Joinfut backend.gif">
 
-Aqui se encontram todas as documentações dos programas e como funciona o backend para que a equipe não se perca durante o desenvolvimento.
+# Área do Backend do projeto Joinfut
+
+</td></tr></table>
+
+Aqui se encontram todas as documentações dos programas e como funciona o Backend para que a equipe não se perca durante o desenvolvimento.
 
 ## Glossário
 
