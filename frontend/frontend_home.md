@@ -8,7 +8,7 @@
 
 <table align="center"><tr><td align="center" width="9999">
 
-<img src="resources/images/logos/joinfut_database.gif">
+<img src="resources/images/logos/joinfut_frontend.gif">
 
 # Área do Frontend do projeto Joinfut
 
