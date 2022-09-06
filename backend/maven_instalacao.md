@@ -138,7 +138,7 @@ Clique em **Novo...** na parte das variáveis do sistema
 
 <img src="resources/images/maven_windows/12.png">
 
-Copie e cole o caminho até a pasta do maven criada dentro dos Arquivos de Programas (x86), normalmente é o `C:\Program Files (x86)\apache-maven-3.8.6`
+Copie e cole o caminho até a pasta do maven criada dentro dos Arquivos de Programas (x86), normalmente é o `C:/Program Files (x86)/apache-maven-3.8.6`
 
 Coloque o nome dessa variável como **MAVEN_HOME**
 
@@ -152,7 +152,7 @@ Clique para criar um **Novo**
 
 <img src="resources/images/maven_windows/15.png">
 
-Coloque a variável do Maven criada e coloque a pasta interna dele chamada **bin**, dessa forma `%MAVEN_HOME%\bin`.
+Coloque a variável do Maven criada e coloque a pasta interna dele chamada **bin**, dessa forma `%MAVEN_HOME%/bin`.
 
 <img src="resources/images/maven_windows/16.png">
 

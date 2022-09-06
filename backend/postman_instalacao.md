@@ -68,31 +68,31 @@ $ ./Postman
 
 * Acesse a página ofical de Download do [Postman](https://www.postman.com/downloads/)
 
-<img src="resources\images\postman\1.png" width="600">
+<img src="resources/images/postman/1.png" width="600">
 
 * Deixe terminar de baixar o .exe e o salve onde quiser
 
-<img src="resources\images\postman\2.png" width="600">
+<img src="resources/images/postman/2.png" width="600">
 
 * Quando clicar no .exe, ele vai automaticamente instalar o postman em seu computador.
 
-<img src="resources\images\postman\3.png" width="600">
+<img src="resources/images/postman/3.png" width="600">
 
 * Crie uma conta ou faça login em uma conta do google
 
-<img src="resources\images\postman\4.png" width="600">
+<img src="resources/images/postman/4.png" width="600">
 
 * Após logado, clique na engrenagem no canto direito encima e selecione **Settings**
 
-<img src="resources\images\postman\5.png">
+<img src="resources/images/postman/5.png">
 
 * Você pode escolher o tema desejado na aba **Themes**
 
-<img src="resources\images\postman\6.png">
+<img src="resources/images/postman/6.png">
 
 * Se desejar conhecer mais sobre o postman, ele possui uma excelente [Documentação](https://learning.postman.com/docs/getting-started/introduction/)
 
-<img src="resources\images\postman\7.png">
+<img src="resources/images/postman/7.png">
 
 ---
 

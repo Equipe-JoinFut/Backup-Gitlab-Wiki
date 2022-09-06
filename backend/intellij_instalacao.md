@@ -120,13 +120,13 @@ Existem vários temas disponiveis para o intellij, mas o meu favorito é o tema 
 
 Acesse os **Settings** do Intellij/Datagrip.
 
-<img src="resources\images\datagrip\10.png">
+<img src="resources/images/datagrip/10.png">
 
 Acesse a página **Plugins** e procure pela extensão **Github Themes**
 
-<img src="resources\images\datagrip\11.png">
+<img src="resources/images/datagrip/11.png">
 
 Ele vai ficar como na imagem abaixo
 
-<img src="resources\images\datagrip\12.png">
+<img src="resources/images/datagrip/12.png">
 
