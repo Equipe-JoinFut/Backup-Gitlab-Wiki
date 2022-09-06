@@ -86,7 +86,7 @@ A modelagem para esta etapa do proceso foi realizada com a ferramenta BrModelo e
 
 Abaixo, segue definida a modelagem conceitual do projeto na Sprint 0:
 
-<img src="resources/images/JoinFut_Conceitual.png">
+<img src="resources/images/database/JoinFut_Conceitual.png">
 
 <br>
 
@@ -116,7 +116,7 @@ Também houveram alterações pequenas na entidade Atleta, com a adição de um 
 
 Abaixo, o primeiro modelo desta etapa:
 
-<img src="resources/images/JoinFut_Conceitual2.png">
+<img src="resources/images/database/JoinFut_Conceitual2.png">
 
 <br>
 
@@ -133,7 +133,7 @@ E adição de um novo atributo na entidade de Subgrupo fora simplesmente para qu
 <br>
 Abaixo, o modelo com suas alterações:
 
-<img src="resources/images/JoinFut_Conceitual3.png">
+<img src="resources/images/database/JoinFut_Conceitual3.png">
 
 
 ### Esquema Lógico
