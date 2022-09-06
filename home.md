@@ -22,7 +22,7 @@
 ---
 
 <table align="center"><tr><td align="center" width="9999">
-<img src="resources\images\logos\Joinfut logo.gif">
+<img src="resources/images/logos/Joinfut logo.gif">
 
 # Bem vindo ao projeto JoinFut
 
@@ -66,4 +66,4 @@ Projeto desenvolvido na AGES 2022/2
 
 ## Imagem do time
 
-TBD
+<img src="resources/images/team/Imagem_Time.jpeg" width="800" height="600">

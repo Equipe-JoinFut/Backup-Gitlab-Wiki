@@ -65,35 +65,35 @@ Va até a [página oficial](https://www.jetbrains.com/datagrip/) do Datagrip
 
 Clique em fazer o Download
 
-<img src="resources\images\datagrip\1.png">
+<img src="resources/images/datagrip/1.png">
 
-<img src="resources\images\datagrip\2.png">
+<img src="resources/images/datagrip/2.png">
 
 Deixe instalar completamente no seu computador
 
-<img src="resources\images\datagrip\3.png">
+<img src="resources/images/datagrip/3.png">
 
 Quando tiver terminado a instalação ele vai mostrar a página abaixo
 
-<img src="resources\images\datagrip\4.png">
+<img src="resources/images/datagrip/4.png">
 
 Deixe o local de salvamento padrão
 
-<img src="resources\images\datagrip\5.png">
+<img src="resources/images/datagrip/5.png">
 
 Selecione todas as opções de modificadores que precisa e clique em **NEXT**
 
-<img src="resources\images\datagrip\6.png">
+<img src="resources/images/datagrip/6.png">
 
 Clique para instalar e deixe ele concluir a instalação
 
-<img src="resources\images\datagrip\7.png">
+<img src="resources/images/datagrip/7.png">
 
-<img src="resources\images\datagrip\8.png">
+<img src="resources/images/datagrip/8.png">
 
 Pronto! dai só clicar para reiniciar o computador para terminar de instalar tudo.
 
-<img src="resources\images\datagrip\9.png">
+<img src="resources/images/datagrip/9.png">
 
 
 ---
@@ -106,12 +106,12 @@ Pronto! dai só clicar para reiniciar o computador para terminar de instalar tud
 
 Acesse os **Settings** do datagrip.
 
-<img src="resources\images\datagrip\10.png">
+<img src="resources/images/datagrip/10.png">
 
 Acesse a página **Plugins** e procure pela extensão **Github Themes**
 
-<img src="resources\images\datagrip\11.png">
+<img src="resources/images/datagrip/11.png">
 
 Ele vai ficar como na imagem abaixo
 
-<img src="resources\images\datagrip\12.png">
+<img src="resources/images/datagrip/12.png">
