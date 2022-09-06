@@ -66,4 +66,4 @@ Projeto desenvolvido na AGES 2022/2
 
 ## Imagem do time
 
-<img src="resources/images/team/Imagem_Time.jpeg" width="600" height="600">
+<img src="resources/images/team/Imagem_Time.jpeg" width="600" height="2000">
