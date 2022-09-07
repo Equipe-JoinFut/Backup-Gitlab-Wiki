@@ -57,24 +57,24 @@ Para a entidade Atleta, temos os atributos:
 - estilo_jogo
 - codigo_bid_cbf (opcionall)
 - endereco
-      - logradouro
-      - numero
-      - bairro
-      - cidade
-      - estado
-      - pais
+    - logradouro
+    - numero
+    - bairro
+    - cidade
+    - estado
+    - pais
 
 Para a entidade Clube, temos os atributos:
 - cnpj
 - inscricao_estadual
 - inscricao_municipal
 - endereco
-      - logradouro
-      - numero
-      - bairro
-      - cidade
-      - estado
-      - pais
+    - logradouro
+    - numero
+    - bairro
+    - cidade
+    - estado
+    - pais
 
 Podemos ver também a entidade JoinFut, que representa o aplicativo neste modelo. E por fim a entidade Pesquisa, que neste modelo é meramente representativa da função de realizar pesquisas que a aplicação deve realizar.
 
@@ -82,15 +82,58 @@ Podemos ver também a entidade JoinFut, que representa o aplicativo neste modelo
 
 A modelagem para esta etapa do proceso foi realizada com a ferramenta BrModelo em sua versão 3.31.
 
+<br>
+
 Abaixo, segue definida a modelagem conceitual do projeto na Sprint 0:
 
-<img src="resources/images/JoinFut_Conceitual.png">
+<img src="resources/images/database/JoinFut_Conceitual.png">
 
 <br>
 
 ### Sprint 1
 
+Seguindo o processo de modelagem na sprint 1, foram definidas novas entidades e relações no modelo conceitual do projeto. As entidades novas são: Subgrupos, Calendário e Peneira
+
+A entidade Subgrupo se baseia na capacidade de um clube poder adicionar Atletas específicos a uma determinada lista. Ela é composta pelos atributos: 
+- id_subgrupo
+- id_atleta
+- id_clube
+
+A entidade Calendário é meramente ilustrativa, demonstrando a existência de um calendário dentro da aplicação.
+
+E por fim a entidade Peneira, que se baseia na capacidade de peneiras serem criadas na aplicação para a divulgação patrocinada/oferecida por clubes em buscas de atletas. Ela é composta pelos atributos: 
+- id_peneira
+- data_peneira
+- hora_inicio
+- hora_fim
+
+Também houveram alterações pequenas na entidade Atleta, com a adição de um novo atributo opcional, composto e multivalorado, que seria o histórico do atleta, relacionado a suas participações anteriores em outros clubes.
+
+- historico_atleta
+	- id_clube_anterior
+
 <br>
+
+Abaixo, o primeiro modelo desta etapa:
+
+<img src="resources/images/database/JoinFut_Conceitual2.png">
+
+<br>
+
+Após a apresentação deste modelo, foi validado com os demais membros da equipe responsável pela modelagem, que alterações deveriam ser feitas para a melhor compreensão do modelo.
+
+As alterações são resumidas em:
+Remoção da entidade Calendário da modelagem.
+Adição de um novo atributo na entidade Subgrupo, chamado: título.
+
+A entidade Calendário fora removida devido ao fato que não havia necessidade de sua existência, vendo que o calendário na aplicação seria utilizado somente para a visualização de peneiras.
+
+E adição de um novo atributo na entidade de Subgrupo fora simplesmente para que o usuário clube possa livremente dar nomes às listas de atletas que deseja criar.
+
+<br>
+Abaixo, o modelo com suas alterações:
+
+<img src="resources/images/database/JoinFut_Conceitual3.png">
 
 
 ### Esquema Lógico

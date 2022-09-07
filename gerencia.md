@@ -35,7 +35,7 @@
 
 ## Termo de Abertura do Projeto
 
-<img src="resources\images\home\termo_abertura_joinfut.png">
+<img src="resources/images/home/termo_abertura_joinfut.png">
 
 ---
 
@@ -43,7 +43,7 @@
 
 ## Estrutura Analítica do Projeto
 
-<img src="resources\images\gerencia\EAP.jpg">
+<img src="resources/images/gerencia/EAP.jpg">
 
 ---
 
@@ -92,7 +92,7 @@ Essa matriz foi desenvolvida para ajudar os membros do time a saberem seus papé
 | Atingir limite de uso gratuito da AWS (Exemplo) | Utilizar servidores apenas para validação, desligando-os quando não utilizados (Exemplo) | Alterar ambiente para outra conta de usuário (Exemplo) | Transferir (Exemplo) |
 | TBD... | TBD... | TBD... | TBD... |
 
-<img src="resources\images\gerencia\plano de riscos.jpg">
+<img src="resources/images/gerencia/plano de riscos.jpg">
 ---
 
 <a name="Sprints"></a>

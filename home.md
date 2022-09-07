@@ -66,4 +66,4 @@ Projeto desenvolvido na AGES 2022/2
 
 ## Imagem do time
 
-TBD
+<img src="resources/images/team/Imagem_Time.jpeg" width="800" height="600">
