@@ -23,13 +23,13 @@
 
 ---
 
-# Instalação do Intellij
+# Instalação do Datagrip
 
 ## Glossário
 
-* [**Linux**](backend/intellij_instalacao#linux)
-* [**Windows**](backend/intellij_instalacao#windows)
-* [**Extensões**](backend/intellij_instalacao#extensao)
+* [**Linux**](backend/datagrip_instalacao#linux)
+* [**Windows**](backend/datagrip_instalacao#windows)
+* [**Extensões**](backend/datagrip_instalacao#extensao)
 
 ---
 
