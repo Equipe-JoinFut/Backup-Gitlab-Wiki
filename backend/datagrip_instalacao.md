@@ -14,7 +14,8 @@
 [![](https://img.shields.io/badge/Página_inicial_backend-323330?style=for-the-badge)](backend/backend_home)
 [![](https://img.shields.io/badge/Instalando_Java-323330?style=for-the-badge&logo=java&logoColor=white)](backend/java_instalacao)
 [![](https://img.shields.io/badge/Instalando_maven-323330?style=for-the-badge)](backend/maven_instalacao)
-[![](https://img.shields.io/badge/Instalando_postman-323330?style=for-the-badge)](backend/postman_instalacao)[![](https://img.shields.io/badge/Instalando_intellij-323330?style=for-the-badge)](backend/intellij_instalacao)
+[![](https://img.shields.io/badge/Instalando_postman-323330?style=for-the-badge)](backend/postman_instalacao)
+[![](https://img.shields.io/badge/Instalando_intellij-323330?style=for-the-badge)](backend/intellij_instalacao)
 [![](https://img.shields.io/badge/Instalando_Datagrip-FF4500?style=for-the-badge)](backend/datagrip_instalacao)
 
 <br>
