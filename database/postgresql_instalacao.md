@@ -101,108 +101,108 @@ createdb -h localhost -p 5432 -U postgres joinfut
 * Acesse este site para fazer [Download](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 
 * Baixe a versão **12.12** do PostgreSQL 
-<img src="resources\images\install_windows\1.png">
+<img src="resources/images/install_windows/1.png">
 
 ---
 
 * Ele vai começar a baixar e vai mostrar um tutorial de como instalar, mas esse aqui ja é o suficiente, com detalhes para o nosso projeto
-<img src="resources\images\install_windows\2.png">
+<img src="resources/images/install_windows/2.png">
 
 ---
 
 * Deixe terminar de baixar
 
-<img src="resources\images\install_windows\3.png">
+<img src="resources/images/install_windows/3.png">
 
 ---
 
 * Após baixado, clique no **.Exe** e libere as permissões para começar a instalar o programa. 
 
-<img src="resources\images\install_windows\4.png">
+<img src="resources/images/install_windows/4.png">
 
 ---
 
 * Mantenha o diretório padrão de instalação e clique em **NEXT**
 
-<img src="resources\images\install_windows\5.png">
+<img src="resources/images/install_windows/5.png">
 
 ---
 
 * Deixe todas as opções marcadas e só clique em **NEXT**
 
-<img src="resources\images\install_windows\6.png">
+<img src="resources/images/install_windows/6.png">
 
 ---
 
 * Ele vai mostrar qual pasta vai ser instalado os extras, mantenha o padrão e clique em **NEXT**
 
-<img src="resources\images\install_windows\7.png">
+<img src="resources/images/install_windows/7.png">
 
 ---
 
 * O **usuário** e **senha** padrão para teste local é [**posgtres**](), depois de colocar nos dois clique em **NEXT**
 
-<img src="resources\images\install_windows\8.png">
+<img src="resources/images/install_windows/8.png">
 
 ---
 
 * A porta liberada para o projeto deve ser a porta [**5433**](), só clique em **NEXT**
-<img src="resources\images\install_windows\9.png">
+<img src="resources/images/install_windows/9.png">
 
 ---
 
 * Selecione a linguagem para o Português do brasil e clique em **NEXT**
 
-<img src="resources\images\install_windows\10.png">
+<img src="resources/images/install_windows/10.png">
 
 ---
 
 * Ele vai mostrar um resumo de tudo que vai ser instalado e alterado, só clicar em **NEXT**
 
-<img src="resources\images\install_windows\11.png">
+<img src="resources/images/install_windows/11.png">
 
 ---
 
 * Agora vai começar a instalação, deixe concluir ela
 
-<img src="resources\images\install_windows\12.png">
-<img src="resources\images\install_windows\13.png">
+<img src="resources/images/install_windows/12.png">
+<img src="resources/images/install_windows/13.png">
 
 ---
 
 * Depois de instalado, ele vai pedir para começar um outro programa chamado **Stack Builder** para instalar os outros programas que vem junto com o PostgreSQL 
 
-<img src="resources\images\install_windows\14.png">
+<img src="resources/images/install_windows/14.png">
 
 ---
 
 * Selecione qual o sistema de banco de dados vai ser utilizado para fazer a instalação, **Tenha certeza** de qual banco postgreSQL está sendo usado
 
-<img src="resources\images\install_windows\15.png">
+<img src="resources/images/install_windows/15.png">
 
 ---
 
 * Selecione o **PgAgent** como extensão que deseja instalar, porque ele auxilia o pessoal do windows a visualizar dados
 
-<img src="resources\images\install_windows\16.png">
+<img src="resources/images/install_windows/16.png">
 
 ---
 
 * Diga qual o diretório onde ele vai instalar os extras, deixe o diretório padrão se esse diretório é no seu computador.
 
-<img src="resources\images\install_windows\17.png">
+<img src="resources/images/install_windows/17.png">
 
 ---
 
 * Deixe ele fazer a instalação dos extras
 
-<img src="resources\images\install_windows\18.png">
+<img src="resources/images/install_windows/18.png">
 
 ---
 
 * Após baixado todos os extras, somente clique em **NEXT** para continuar 
 
-<img src="resources\images\install_windows\19.png">
+<img src="resources/images/install_windows/19.png">
 
 ---
 
@@ -210,45 +210,45 @@ createdb -h localhost -p 5432 -U postgres joinfut
 
 * Agora vai começar a configuração do PgAgent, que vai instalar o programa **PgAdmin**, que é o visualizados do PostgreSQL dos bancos de dados, mas iremos usar como padrão o Datagrip, clique em **NEXT**
 
-<img src="resources\images\install_windows\20.png">
+<img src="resources/images/install_windows/20.png">
 
 ---
 
 * Nessa tela só clique em **NEXT**
 
-<img src="resources\images\install_windows\21.png">
+<img src="resources/images/install_windows/21.png">
 
 ---
 
 * As informações do Pgadmin devem ser as mesmas do postgres, portanto ele trás alguns dados padrão como abaixo, mas a senha tem que ser para o local [**postgres**](), depois só clique em **NEXT**
 
-<img src="resources\images\install_windows\22.png">
+<img src="resources/images/install_windows/22.png">
 
 ---
 
 * Usuario de acesso também, **usuário** e **senha** como [**postgres**]()
 
-<img src="resources\images\install_windows\23.png">
+<img src="resources/images/install_windows/23.png">
 
 ---
 
 * Clique em **NEXT** que ele vai começar a instalação do PgAgent
 
-<img src="resources\images\install_windows\24.png">
-<img src="resources\images\install_windows\25.png">
+<img src="resources/images/install_windows/24.png">
+<img src="resources/images/install_windows/25.png">
 
 ---
 
 * Ele vai mostrar que foi criado o pgAgent e que foi criado o Schema padrão postgres
 
-<img src="resources\images\install_windows\26.png">
+<img src="resources/images/install_windows/26.png">
 
 ---
 
 * Só clicar **NEXT** nas próximas duas telas para finalizar
 
-<img src="resources\images\install_windows\27.png">
-<img src="resources\images\install_windows\28.png">
+<img src="resources/images/install_windows/27.png">
+<img src="resources/images/install_windows/28.png">
 
 ## Testando a instalação
 
