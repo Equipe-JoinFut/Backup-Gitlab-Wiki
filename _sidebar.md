@@ -9,7 +9,7 @@
 - [$`{\color{darkblue}Processo \space de \space Desenvolvimento}`$](processo)
 - [$`{\color{indigo}Organização \space das \space Squads}`$](squads)
 - [$`{\color{violet}Arquitetura \space dos \space Projetos}`$](arquitetura)
-- [$`{\color{purple}Banco \space de \space dados \space - \space Informação}`$](banco_dados)
+- [$`{\color{purple}Banco \space de \space dados \space - \space Infos}`$](banco_dados)
 - [$`{\color{darkcyan}Retrospectivas}`$](Retro)
 
 ---
