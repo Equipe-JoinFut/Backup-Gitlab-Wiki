@@ -264,17 +264,83 @@ createdb -h localhost -p 5432 -U postgres joinfut
 
 ---
 
+* Quando finalizar o carregamento, ele vai pedir a senha de acesso, a senha é [**postgres**]() como definido na instalação.
+
 <img src="resources/images/install_windows/31.png">
+
+---
+
+* No canto esquerdo, tem os servidores instalados em seu computador, procure pelo [**PostgreSQL 12**]()
+
 <img src="resources/images/install_windows/32.png">
+
+---
+
+* Clique duas vezes encima dele e ele vai pedir outra senha, essa senha também é [**postgres**]()
+
 <img src="resources/images/install_windows/33.png">
+
+---
+
+* Clique com o botão direito encima do nome do **Database** e selecione **Create > Database**
+
 <img src="resources/images/install_windows/34.png">
+<br>
 <img src="resources/images/install_windows/35.png">
+
+---
+
+* Coloque o nome do database como **joinfut** (assim como está escrito) e deixe como owner o **postgres**
+* Depois disso só clicar em **Save**
+
 <img src="resources/images/install_windows/36.png">
+
+---
+
+* Ele vai criar o nosso database e vai mostrar no canto direito as informações sobre ele e ele vai aparecer no canto esquerdo, como mostrado abaixo
+
 <img src="resources/images/install_windows/37.png">
+
+---
+
+## Acessando no Datagrip
+
+* Agora iremos acessar o Datagrip e iremos conectar no banco de dados criado
+* Clique no **+** bem na ponta esquerda do programa para podermos fazer uma conexão
+
 <img src="resources/images/install_windows/38.png">
+
+---
+
+* Selecione a opção **Data Source** e depois **PostgreSQL**
+
 <img src="resources/images/install_windows/39.png">
+
+---
+
+* Ele vai abrir para colocar as informações da conexão, antes de colocarmos os dados, temos que baixar as dependencias do drive do postgreSQL como mostra na imagem
+
 <img src="resources/images/install_windows/40.png">
+
+---
+
+* Os dados essenciais para a conexão são
+  * Nome do projeto é opcional, mas se quiser coloque **Projeto Joinfut**
+  * Host é **localhost**
+  * Port é **5433**
+  * User é **postgres**
+  * Password é **postgres**
+  * Database é **joinfut**
+  * URL é gerada automaticamente com os dados acima, É A MESMA URL QUE VAI APARECER NO BACKEND NO APPLICATION.PROPERTIES
+
+* Clique em **Test Connection** para ver se foi configurado direito e depois em **Apply** e **OK**
+
 <img src="resources/images/install_windows/41.png">
+
+---
+
+* Pronto! agora o datagrip vai configurar sozinho, iniciar o banco e abrir um console como abaixo, é nesse console que iremos colocar os comando em SQL do projeto
+
 <img src="resources/images/install_windows/42.png">
 
 
