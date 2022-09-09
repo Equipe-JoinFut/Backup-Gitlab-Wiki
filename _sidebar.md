@@ -3,14 +3,14 @@
 ---
 
 - [$`{\color{red}Área \space Inicial}`$](home)
-- [$`{\color{orange}Instalação \space de \space Programas}`$](Instalação)
-- [$`{\color{yellow}Design \space dos \space Mockups}`$](design_mockups)
-- [$`{\color{green}Gerenciamento \space da \space Equipe}`$](gerencia)
-- [$`{\color{blue}Processo \space de \space Desenvolvimento}`$](processo)
+- [$`{\color{darkorange}Instalação \space de \space Programas}`$](Instalação)
+- [$`{\color{lime}Design \space dos \space Mockups}`$](design_mockups)
+- [$`{\color{darkgreen}Gerenciamento \space da \space Equipe}`$](gerencia)
+- [$`{\color{darkblue}Processo \space de \space Desenvolvimento}`$](processo)
 - [$`{\color{indigo}Organização \space das \space Squads}`$](squads)
 - [$`{\color{violet}Arquitetura \space dos \space Projetos}`$](arquitetura)
-- [$`{\color{purple}Banco \space de \space dados \space - \space Área \space de \space apresentação}`$](banco_dados)
-- [$`{\color{cyan}Retrospectivas}`$](Retro)
+- [$`{\color{purple}Banco \space de \space dados \space - \space Informação}`$](banco_dados)
+- [$`{\color{darkcyan}Retrospectivas}`$](Retro)
 
 ---
 
