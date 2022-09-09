@@ -252,5 +252,31 @@ createdb -h localhost -p 5432 -U postgres joinfut
 
 ## Testando a instalação
 
+* Procure por **PgAdmin** em seu computador
+
+<img src="resources/images/install_windows/29.png">
+
+---
+
+* Clique para iniciar, ele vai mostrar uma área de carregamento
+
+<img src="resources/images/install_windows/30.png">
+
+---
+
+<img src="resources/images/install_windows/31.png">
+<img src="resources/images/install_windows/32.png">
+<img src="resources/images/install_windows/33.png">
+<img src="resources/images/install_windows/34.png">
+<img src="resources/images/install_windows/35.png">
+<img src="resources/images/install_windows/36.png">
+<img src="resources/images/install_windows/37.png">
+<img src="resources/images/install_windows/38.png">
+<img src="resources/images/install_windows/39.png">
+<img src="resources/images/install_windows/40.png">
+<img src="resources/images/install_windows/41.png">
+<img src="resources/images/install_windows/42.png">
+
+
 
 
