@@ -31,7 +31,7 @@ Os protótipos de tela foram realizados através da ferramenta Figma, contando c
 
 Seguindo a ideia apresentada pelos _stakeholders_, foram primeiro criados modelos alguns modelos simples feitos a mão sobre as telas base, sendo elas as telas _login_ e cadastro.
 
-<img src="resources/images/mockups/Screenshot 2022-09-06 230529.png">
+<img src="resources/images/mockups/FotoQuadro.png">
 
 <br>
 
@@ -43,7 +43,7 @@ Após este primeiro exemplo, a equipe deu andamento para a modelagem na ferramen
 
  <br>
 
-<img src="resources/images/mockups/join1.png">
+<img src="resources/images/mockups/Login.png">
 
 <br> 
 
@@ -56,7 +56,7 @@ Tela de _login_ da aplicação, onde o usuário pode fazer _login_ utilizando os
 
 <br>
 
-<img src="resources/images/mockups/join2.png">
+<img src="resources/images/mockups/SouJogadorSouClube.png">
 
 <br>
 
@@ -69,7 +69,7 @@ Tela inicial de cadastro, onde é possível escolher o tipo de usuário que far�
 
 <br>
 
-<img src="resources/images/mockups/join3.png">
+<img src="resources/images/mockups/CadastroJogadorClube.png">
 
 <br>
 
@@ -83,7 +83,7 @@ Telas de cadastro apresentadas para o usuário Atleta e usuário Clube, respecti
 
 <br>
 
-<img src="resources/images/mockups/join4.png">
+<img src="resources/images/mockups/Termos.png">
 
 <br>
 
@@ -96,7 +96,7 @@ Tela de termos de uso. Cada usuário (atleta e clube), após realizar o cadastro
 
 <br>
 
-<img src="resources/images/mockups/join5.png">
+<img src="resources/images/mockups/HomeCalendarioMenuLateral.png">
 
 <br>
 
@@ -111,7 +111,7 @@ Foi definido pela equipe que no fluxo do usuário, sua _homepage_ seria o calend
 
 <br>
 
-<img src="resources/images/mockups/join6.png">
+<img src="resources/images/mockups/HomeFiltroMenuLateral.png">
 
 <br>
 
@@ -126,12 +126,12 @@ Foi definido pela equipe que o fluxo do usuário clube, sua _homepage_ seria a t
 
 <br> 
 
-<img src="resources/images/mockups/join7.png">
+<img src="resources/images/mockups/Subgrupos.png">
 
 <br>
 
 ### Descrição:
-Tela de subgrupos da aplicação. Nesta tela o clube pode visualizar sua lista de atletas de acordo com a grupagem que deseja fazer. 
+Tela de subgrupos da aplicação. Nesta tela o clube pode visualizar as listas de atletas que faz parte de sua grupagem. É possível também criar um novo subgrupo e criar as pré seleções a partir de subgrupos já existentes. 
 
 <br>
 
@@ -139,7 +139,7 @@ Tela de subgrupos da aplicação. Nesta tela o clube pode visualizar sua lista d
 
 <br>
 
-<img src="resources/images/mockups/join8.png">
+<img src="resources/images/mockups/PerfilAtleta.png">
 
 <br>
 
@@ -153,14 +153,25 @@ A tela do perfil do atleta compõem as características do atleta em questão: e
 <br>
 
 
-<img src="resources/images/mockups/join9.png">
+<img src="resources/images/mockups/Videos.png">
 
 <br>
 
 ### Descrição:
-A última tela pensada que compõe o fluxo foi a tela que constam os _links_ com os vídeos respectivos de cada categoria. Essa tela também é acessada por ambos fluxos (atleta e clube).
+A tela de vídeos do atleta constam os _links_ com os vídeos respectivos de cada categoria. Essa tela também é acessada por ambos fluxos (atleta e clube).
 
+<br>
 
+## Pré-seleção
+
+<br>
+
+<img src="resources/images/mockups/Preselecao.png">
+
+<br>
+
+### Descrição:
+A última tela pensada para completar o fluxo foi a tela de pré-seleção. Nessa tela o clube pode encontrar a lista de cada subgrupo que gerou uma pré seleção com os respectivos atletas listados e, a partir do contato com o Joinfut, atualizar o sistema indicando quais jogadores confirmaram presença na pré-seleção.
 
 <br>
 
@@ -177,7 +188,11 @@ Os _stakeholders_ tinham posse de um logotipo pronto, juntamente com a sua palet
 
 <br>
 
-<img src="resources/images/mockups/Screenshot 2022-09-06 221446.png">
+<img src="resources/images/mockups/PaletaCores.png">
+
+<br>
+
+<img src="resources/images/mockups/Logotipo.png">
 
 <br>
 
@@ -189,7 +204,7 @@ Além da paleta de cores e do logotipo citados anteriormente, os _stakeholders_ 
 
 <br>
 
-<img src="resources/images/mockups/Screenshot 2022-09-06 221523.png">
+<img src="resources/images/mockups/Tipografia.png">
 
 <br>
 
