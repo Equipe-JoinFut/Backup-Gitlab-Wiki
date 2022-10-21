@@ -144,7 +144,7 @@ Tela de subgrupos da aplicação. Nesta tela o clube pode visualizar as listas d
 <br>
 
 ### Descrição:
-A tela do perfil do atleta compõem as características do atleta em questão: estilo de jogo, posição, times que já passou e um botão que leva para uma tela que contém os vídeos do atleta. Essa tela pode ser acessada em ambos fluxos (atleta e clube). 
+A tela do perfil do atleta compõem as características do atleta em questão: estilo de jogo, posição, avaliação do mesmo e um botão que leva para uma tela que contém os vídeos do atleta. Essa tela pode ser acessada em ambos fluxos (atleta e clube). 
 
 <br>
 
