@@ -65,11 +65,25 @@ Tela inicial de cadastro, onde é possível escolher o tipo de usuário que far�
 
 <br>
 
+## Pré Cadastro
+
+ <br>
+
+<img src="resources/images/mockups/PreCadastro.png">
+
+<br> 
+
+### Descrição:
+Tela de _login_ 2 da aplicação onde, após o usuário se identificar como clube ou atleta ao clicar em "Registre-se" no primeiro contato com o aplicativo, ele então preenche os primeiros dados que serão utilizados em seu cadastro: email e senha..
+
+<br>
+
 ## Cadastro Atletas/Clube
 
 <br>
 
-<img src="resources/images/mockups/CadastroJogadorClube.png">
+<img src="resources/images/mockups/CadastroJogador.png">
+<img src="resources/images/mockups/CadastroClube.png">
 
 <br>
 
@@ -126,7 +140,7 @@ Foi definido pela equipe que o fluxo do usuário clube, sua _homepage_ seria a t
 
 <br> 
 
-<img src="resources/images/mockups/Subgrupos.png">
+<img src="resources/images/mockups/Subgroup.png">
 
 <br>
 
