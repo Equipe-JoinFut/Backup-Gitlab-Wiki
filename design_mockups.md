@@ -149,6 +149,17 @@ Tela de subgrupos da aplicação. Nesta tela o clube pode visualizar as listas d
 
 <br>
 
+##Modal para criar uma pré-seleção
+
+<br>
+
+<img src="resources/images/mockups/Modal.png">
+
+<br>
+
+### Descrição:
+Para um melhor fluxo, o time optou para criar um modal para, através dele, ser feita a criação da pré-seleção a partir de um subgrupo. Esse modal é acionado quando o usuário clica no símbolo "+", como mostra a figura acima. 
+
 ## Perfil do atleta
 
 <br>
