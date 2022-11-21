@@ -35,12 +35,15 @@ Para o sistema, foi definido que seria utilizado o banco de dados Postgres. Esta
 
 ## Modelagem
 
-### Esquema Conceitual
+<br>
+
+### **Esquema Conceitual**
 
 <br>
 
 ### Sprint 0
 
+<br>
 
 Durante a sprint zero, foram definidas as primeiras entidades que serão realizadas pela equipe, sendo elas os dois usuários maiores do sistema: Atleta e Clube.
 
@@ -92,6 +95,8 @@ Abaixo, segue definida a modelagem conceitual do projeto na Sprint 0:
 
 ### Sprint 1
 
+<br>
+
 Seguindo o processo de modelagem na sprint 1, foram definidas novas entidades e relações no modelo conceitual do projeto. As entidades novas são: Subgrupos, Calendário e Peneira
 
 A entidade Subgrupo se baseia na capacidade de um clube poder adicionar Atletas específicos a uma determinada lista. Ela é composta pelos atributos: 
@@ -131,12 +136,68 @@ A entidade Calendário fora removida devido ao fato que não havia necessidade d
 E adição de um novo atributo na entidade de Subgrupo fora simplesmente para que o usuário clube possa livremente dar nomes às listas de atletas que deseja criar.
 
 <br>
+
 Abaixo, o modelo com suas alterações:
 
 <img src="resources/images/database/JoinFut_Conceitual3.png">
 
+<br>
 
-### Esquema Lógico
+E, para a atualização do modelo conceitual do banco, os atributos de endereço dos usuários Atleta e Clube foram colocados juntamente com a entidade Usuário, para evitar redundância de dados. 
+
+<br>
+
+Abaixo, o modelo conceitual relacionado a esta atualização: 
+
+<img src="resources/images/database/JoinFut_Conceitual4.png">
+
+<br>
+
+Durante a Sprint, tivemos novas informações apresentadas pelos Stakeholders, logo, foram necessárias novas atualizações no modelo do banco de dados. Estas tendo grande impacto na modelagem e alterando uma boa parte do modelo original proposto. 
+
+Foi validado com o cliente que as peneiras da aplicação teriam uma troca de nome, agora chamadas de pré-selecao, possuidoras dos seguintes atributos:
+
+- endereco
+    - logradouro
+    - numero
+    - bairro
+    - cidade
+    - estado
+    - pais
+
+Essa pré-seleção é criada a partir de um subgrupo, e engloba a ação de um clube poder iniciar uma “peneira” com os atletas já pré-selecionados pelo clube em subgrupos.
+
+Ocorreu também a adição do campo de email e de senha do usuário, juntamente com a remoção do histórico de clubes do atleta.
+
+Abaixo, o modelo conceitual relacionado a esta atualização:
+
+<br>
+
+<img src="resources/images/database/JoinFut_Conceitual5.png">
+
+<br>
+
+E para a finalização do modelo conceitual, foi levantado com a equipe a necessidade de mais uma entidade, chamada de Avaliação. Esta entidade deve englobar a capacidade do clube de dar dar notas a um atleta após a conclusão de sua pré-seleção.
+
+A entidade Avaliação possui os seguintes atributos:
+- id_avalicao
+- nota_clube
+
+<br>
+
+**Abaixo, o modelo conceitual da aplicação completo, englobando todas as requisições do cliente :**
+
+<img src="resources/images/database/Joinfut_Conceitual6 .png">
+
+<br>
+
+### **Esquema Lógico**
+
+<br>
+
+### Sprint 1
+
+<br>
 
 TBD
 
@@ -152,10 +213,14 @@ TBD
 
 TBD
 
-#### Postgrees
+### Postgrees
 
 TBD
 
-#### Ferramentas Utilizadas
+### Ferramentas Utilizadas
 
+- [BrModelo 3.31](https://www.sis4.com/brModelo/download.html).
 
+<br>
+
+*Wiki editada por: [Alexya Silva Rocha de Oliveira](https://tools.ages.pucrs.br/alexya.oliveira)*

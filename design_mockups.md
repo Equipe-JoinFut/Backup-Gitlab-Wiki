@@ -65,11 +65,25 @@ Tela inicial de cadastro, onde é possível escolher o tipo de usuário que far�
 
 <br>
 
-## Cadastro Atletas/Clube
+## Pré Cadastro
 
 <br>
 
-<img src="resources/images/mockups/CadastroJogadorClube.png">
+<img src="resources/images/mockups/PreCadastro.png">
+
+<br> 
+
+### Descrição:
+Tela de _login_ 2 da aplicação onde, após o usuário se identificar como clube ou atleta ao clicar em "Registre-se" no primeiro contato com o aplicativo, ele então preenche os primeiros dados que serão utilizados em seu cadastro: email e senha..
+
+<br>
+
+## Cadastro Atletas/Clubes
+
+<br>
+
+<img src="resources/images/mockups/CadastroJogador.png">
+<img src="resources/images/mockups/CadastroClube.png">
 
 <br>
 
@@ -126,7 +140,7 @@ Foi definido pela equipe que o fluxo do usuário clube, sua _homepage_ seria a t
 
 <br> 
 
-<img src="resources/images/mockups/Subgrupos.png">
+<img src="resources/images/mockups/Subgroup.png">
 
 <br>
 
@@ -134,6 +148,17 @@ Foi definido pela equipe que o fluxo do usuário clube, sua _homepage_ seria a t
 Tela de subgrupos da aplicação. Nesta tela o clube pode visualizar as listas de atletas que faz parte de sua grupagem. É possível também criar um novo subgrupo e criar as pré seleções a partir de subgrupos já existentes. 
 
 <br>
+
+## Modal para criar uma pré-seleção
+
+<br>
+
+<img src="resources/images/mockups/Modal.png">
+
+<br>
+
+### Descrição:
+Para um melhor fluxo, o time optou para criar um modal para, através dele, ser feita a criação da pré-seleção a partir de um subgrupo. Esse modal é acionado quando o usuário clica no símbolo "+", como mostra a figura acima. 
 
 ## Perfil do atleta
 
@@ -144,7 +169,7 @@ Tela de subgrupos da aplicação. Nesta tela o clube pode visualizar as listas d
 <br>
 
 ### Descrição:
-A tela do perfil do atleta compõem as características do atleta em questão: estilo de jogo, posição, times que já passou e um botão que leva para uma tela que contém os vídeos do atleta. Essa tela pode ser acessada em ambos fluxos (atleta e clube). 
+A tela do perfil do atleta compõem as características do atleta em questão: estilo de jogo, posição, avaliação do mesmo e um botão que leva para uma tela que contém os vídeos do atleta. Essa tela pode ser acessada em ambos fluxos (atleta e clube). 
 
 <br>
 
@@ -177,22 +202,137 @@ A última tela pensada para completar o fluxo foi a tela de pré-seleção. Ness
 
 ## Protótipos de Alto Nível
 
-TBD
+<br>
+
+Seguindo a mesma ordem dos protótipos de baixo nível, foram desenvolvidas as seguintes telas:
+
+<br>
+
+## Login
+
+<br>
+
+<img src="resources/images/altonivel/HomePage.png">
+
+<br>
+
+## Escolha do usuário(fluxo)
+
+<br>
+
+<img src="resources/images/altonivel/ClubeOuJogador.png">
+
+<br>
+
+## Pré Cadastro
+
+<br>
+
+<img src="resources/images/altonivel/CadastroDeUsuario.png">
+
+<br>
+
+## Cadastro Atletas/Clubes
+
+<br>
+
+<img src="resources/images/altonivel/AtualizacaoDeDadosAtleta.png">
+<img src="resources/images/altonivel/AtualizacaoDeDadosClube.png">
+
+<br>
+
+## Termos de uso
+
+<br>
+
+<img src="resources/images/altonivel/Termos.png">
+
+<br>
+
+## Home Calendário(Atleta) & Menu Lateral
+
+<br>
+
+<img src="resources/images/altonivel/CalendarioDeUsuario.png">
+<img src="resources/images/altonivel/MenuDoAtleta.png">
+
+<br>
+
+## Home Filtro(Clube) & Menu Lateral
+
+<br>
+
+<img src="resources/images/altonivel/BuscaDeAtletas.png">
+<img src="resources/images/altonivel/MenuClube.png">
+
+<br>
+
+## Subgrupos
+
+<br>
+
+<img src="resources/images/altonivel/TelaDeSubgrupos.png">
+
+<br>
+
+## Modal para criar uma Pré-seleção
+
+<br>
+
+<img src="resources/images/altonivel/Modal.png">
+
+<br>
+
+## Perfil do Atleta
+
+<br>
+
+<img src="resources/images/altonivel/PerfilAtleta.png">
+
+<br>
+
+## Telas dos vídeos do Atleta
+
+<br>
+
+<img src="resources/images/altonivel/VideosDoAtleta.png">
+
+<br>
+
+## Pré-seleção
+
+<br>
+
+<img src="resources/images/altonivel/Peneiras.png">
+
+<br>
+
+Importante ressaltar que até o momento desta edição, a tela de pré-seleção se encontra como débito técnico para a entrega final (25/11) e portanto, haverá uma alteração na wiki após os integrantes realizarem a entrega do relatório final. 
+
+<br>
+
+## Logotipo
+
+<br>
+
+Os _stakeholders_ possuíam um logotipo original porém, ao decorrer do projeto foram realizadas algumas mudanças sugeridas pelo time. A seguir o logitipo original e o atualizado nessa mesma orgem:
+
+<br>
+
+<img src="resources/images/logos/LogoOriginal.png">
+<img src="resources/images/logos/LogoAtualizado.png">
 
 <br>
 
 ## Paleta de Cores
+
 <br>
 
-Os _stakeholders_ tinham posse de um logotipo pronto, juntamente com a sua paleta de cores, que foram mantidos pelo time na execução dos _mockups_. 
+A paleta de cores original foi mantida pelo time na execução dos _mockups_ e nas telas desenvolvidas. 
 
 <br>
 
 <img src="resources/images/mockups/PaletaCores.png">
-
-<br>
-
-<img src="resources/images/mockups/Logotipo.png">
 
 <br>
 
@@ -210,4 +350,131 @@ Além da paleta de cores e do logotipo citados anteriormente, os _stakeholders_ 
 
 ## Elementos Visuais
 
-TBD
+<br>
+
+Como elementos visuais, foi possível utilizar os seguintes nas telas já desenvolvidas dentro do aplicativo mobile:
+
+<br>
+
+## Subgrupos
+
+<br>
+
+<img src="resources/images/elementosvisuais/SubgruposElemento.png">
+
+<br>
+
+### Descrição:
+Foi definido esse elemento para representar o botão de Subgrupos existente no menu lateral do fluxo do Clube, que possibilita o mesmo a acessar a tela que contém seus subgrupos criados.
+
+<br>
+
+## Busca de Jogadores
+
+<br>
+
+<img src="resources/images/elementosvisuais/BuscarJogadorElemento.png">
+
+<br>
+
+### Descrição:
+Também no menu lateral do fluxo do Clube, é possível acessar a tela de busca de atletas através do botão representado por esse elemento.
+
+<br>
+
+## Peneiras
+
+<br>
+
+<img src="resources/images/elementosvisuais/PeneirasElemento.png">
+
+<br>
+
+### Descrição:
+Como terceira e última opção do menu lateral do fluxo do Clube, pode-se acessar a tela das pré-seleções através do botão representado por esse elemento.
+
+<br>
+
+## Perfil
+
+<br>
+
+<img src="resources/images/elementosvisuais/PerfilElemento.png">
+
+<br>
+
+### Descrição:
+Entrando no menu lateral do fluxo do Atleta, a primeira opção disponível permite que o atleta acesse seu perfil através do botão representado por esse elemento.
+
+<br>
+
+## Vídeos
+
+<br>
+
+<img src="resources/images/elementosvisuais/VideosElemento.png">
+
+<br>
+
+### Descrição:
+O atleta pode também acessar seus vídeos através do botão representado por esse elemento, sugestivo ao ícone do youtube por conta de ser a plataforma onde os vídeos se encontram.
+
+<br>
+
+## Minha Agenda
+
+<br>
+
+<img src="resources/images/elementosvisuais/AgendaElemento.png">
+
+<br>
+
+### Descrição:
+Como última opção no menu lateral do atleta, existe o botão que leva para o seu calendário, ou seja, sua tela home dentro do aplicativo. 
+
+<br>
+
+## Símbolo de +
+
+<br>
+
+<img src="resources/images/elementosvisuais/AdicionarElemento.png">
+
+<br>
+
+### Descrição:
+Em várias telas foram utilizadas o elemento de adicção, afim de representar a ação que o usuário pode ter que adicionar/criar algum elemento de acordo com cada feature existente.
+
+<br>
+
+## Youtube símbolo
+
+<br>
+
+<img src="resources/images/elementosvisuais/YoutubeElemento.png">
+
+<br>
+
+### Descrição:
+Na tela que consta os vídeos do atleta, também foi utilizado um elemento visual que fizesse analogia a plataforma do Youtube, porém dessa vez com as cores características vermelho e branco.
+
+<br>
+
+## Bola Logotipo
+
+<br>
+
+<img src="resources/images/elementosvisuais/BolaLogoElemento.png">
+
+<br>
+
+### Descrição:
+Ao decorrer do projeto, foi sugerido pelo time aos stekeholders uma pequena mudança no logo e, para isso, foi utilizado o elemento visual de uma bola de futebol diferente do logo original.
+
+<br>
+
+
+
+
+
+
